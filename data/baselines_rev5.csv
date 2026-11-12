@@ -1,0 +1,1015 @@
+control_id,family,family_name,title,is_enhancement,low,moderate,high,privacy
+AC-1,AC,Access Control,Policy and Procedures,0,1,1,1,1
+AC-2,AC,Access Control,Account Management,0,1,1,1,0
+AC-2(1),AC,Access Control,Automated System Account Management,1,0,1,1,0
+AC-2(2),AC,Access Control,Automated Temporary and Emergency Account Management,1,0,1,1,0
+AC-2(3),AC,Access Control,Disable Accounts,1,0,1,1,0
+AC-2(4),AC,Access Control,Automated Audit Actions,1,0,1,1,0
+AC-2(5),AC,Access Control,Inactivity Logout,1,0,1,1,0
+AC-2(6),AC,Access Control,Dynamic Privilege Management,1,0,0,0,0
+AC-2(7),AC,Access Control,Privileged User Accounts,1,0,0,0,0
+AC-2(8),AC,Access Control,Dynamic Account Management,1,0,0,0,0
+AC-2(9),AC,Access Control,Restrictions on Use of Shared and Group Accounts,1,0,0,0,0
+AC-2(11),AC,Access Control,Usage Conditions,1,0,0,1,0
+AC-2(12),AC,Access Control,Account Monitoring for Atypical Usage,1,0,0,1,0
+AC-2(13),AC,Access Control,Disable Accounts for High-risk Individuals,1,0,1,1,0
+AC-3,AC,Access Control,Access Enforcement,0,1,1,1,0
+AC-3(2),AC,Access Control,Dual Authorization,1,0,0,0,0
+AC-3(3),AC,Access Control,Mandatory Access Control,1,0,0,0,0
+AC-3(4),AC,Access Control,Discretionary Access Control,1,0,0,0,0
+AC-3(5),AC,Access Control,Security-relevant Information,1,0,0,0,0
+AC-3(7),AC,Access Control,Role-based Access Control,1,0,0,0,0
+AC-3(8),AC,Access Control,Revocation of Access Authorizations,1,0,0,0,0
+AC-3(9),AC,Access Control,Controlled Release,1,0,0,0,0
+AC-3(10),AC,Access Control,Audited Override of Access Control Mechanisms,1,0,0,0,0
+AC-3(11),AC,Access Control,Restrict Access to Specific Information Types,1,0,0,0,0
+AC-3(12),AC,Access Control,Assert and Enforce Application Access,1,0,0,0,0
+AC-3(13),AC,Access Control,Attribute-based Access Control,1,0,0,0,0
+AC-3(14),AC,Access Control,Individual Access,1,0,0,0,1
+AC-3(15),AC,Access Control,Discretionary and Mandatory Access Control,1,0,0,0,0
+AC-4,AC,Access Control,Information Flow Enforcement,0,0,1,1,0
+AC-4(1),AC,Access Control,Object Security and Privacy Attributes,1,0,0,0,0
+AC-4(2),AC,Access Control,Processing Domains,1,0,0,0,0
+AC-4(3),AC,Access Control,Dynamic Information Flow Control,1,0,0,0,0
+AC-4(4),AC,Access Control,Flow Control of Encrypted Information,1,0,0,1,0
+AC-4(5),AC,Access Control,Embedded Data Types,1,0,0,0,0
+AC-4(6),AC,Access Control,Metadata,1,0,0,0,0
+AC-4(7),AC,Access Control,One-way Flow Mechanisms,1,0,0,0,0
+AC-4(8),AC,Access Control,Security and Privacy Policy Filters,1,0,0,0,0
+AC-4(9),AC,Access Control,Human Reviews,1,0,0,0,0
+AC-4(10),AC,Access Control,Enable and Disable Security or Privacy Policy Filters,1,0,0,0,0
+AC-4(11),AC,Access Control,Configuration of Security or Privacy Policy Filters,1,0,0,0,0
+AC-4(12),AC,Access Control,Data Type Identifiers,1,0,0,0,0
+AC-4(13),AC,Access Control,Decomposition into Policy-relevant Subcomponents,1,0,0,0,0
+AC-4(14),AC,Access Control,Security or Privacy Policy Filter Constraints,1,0,0,0,0
+AC-4(15),AC,Access Control,Detection of Unsanctioned Information,1,0,0,0,0
+AC-4(17),AC,Access Control,Domain Authentication,1,0,0,0,0
+AC-4(19),AC,Access Control,Validation of Metadata,1,0,0,0,0
+AC-4(20),AC,Access Control,Approved Solutions,1,0,0,0,0
+AC-4(21),AC,Access Control,Physical or Logical Separation of Information Flows,1,0,0,0,0
+AC-4(22),AC,Access Control,Access Only,1,0,0,0,0
+AC-4(23),AC,Access Control,Modify Non-releasable Information,1,0,0,0,0
+AC-4(24),AC,Access Control,Internal Normalized Format,1,0,0,0,0
+AC-4(25),AC,Access Control,Data Sanitization,1,0,0,0,0
+AC-4(26),AC,Access Control,Audit Filtering Actions,1,0,0,0,0
+AC-4(27),AC,Access Control,Redundant/Independent Filtering Mechanisms,1,0,0,0,0
+AC-4(28),AC,Access Control,Linear Filter Pipelines,1,0,0,0,0
+AC-4(29),AC,Access Control,Filter Orchestration Engines,1,0,0,0,0
+AC-4(30),AC,Access Control,Filter Mechanisms Using Multiple Processes,1,0,0,0,0
+AC-4(31),AC,Access Control,Failed Content Transfer Prevention,1,0,0,0,0
+AC-4(32),AC,Access Control,Process Requirements for Information Transfer,1,0,0,0,0
+AC-5,AC,Access Control,Separation of Duties,0,0,1,1,0
+AC-6,AC,Access Control,Least Privilege,0,0,1,1,0
+AC-6(1),AC,Access Control,Authorize Access to Security Functions,1,0,1,1,0
+AC-6(2),AC,Access Control,Non-privileged Access for Nonsecurity Functions,1,0,1,1,0
+AC-6(3),AC,Access Control,Network Access to Privileged Commands,1,0,0,1,0
+AC-6(4),AC,Access Control,Separate Processing Domains,1,0,0,0,0
+AC-6(5),AC,Access Control,Privileged Accounts,1,0,1,1,0
+AC-6(6),AC,Access Control,Privileged Access by Non-organizational Users,1,0,0,0,0
+AC-6(7),AC,Access Control,Review of User Privileges,1,0,1,1,0
+AC-6(8),AC,Access Control,Privilege Levels for Code Execution,1,0,0,0,0
+AC-6(9),AC,Access Control,Log Use of Privileged Functions,1,0,1,1,0
+AC-6(10),AC,Access Control,Prohibit Non-privileged Users from Executing Privileged Functions,1,0,1,1,0
+AC-7,AC,Access Control,Unsuccessful Logon Attempts,0,1,1,1,0
+AC-7(2),AC,Access Control,Purge or Wipe Mobile Device,1,0,0,0,0
+AC-7(3),AC,Access Control,Biometric Attempt Limiting,1,0,0,0,0
+AC-7(4),AC,Access Control,Use of Alternate Authentication Factor,1,0,0,0,0
+AC-8,AC,Access Control,System Use Notification,0,1,1,1,0
+AC-9,AC,Access Control,Previous Logon Notification,0,0,0,0,0
+AC-9(1),AC,Access Control,Unsuccessful Logons,1,0,0,0,0
+AC-9(2),AC,Access Control,Successful and Unsuccessful Logons,1,0,0,0,0
+AC-9(3),AC,Access Control,Notification of Account Changes,1,0,0,0,0
+AC-9(4),AC,Access Control,Additional Logon Information,1,0,0,0,0
+AC-10,AC,Access Control,Concurrent Session Control,0,0,0,1,0
+AC-11,AC,Access Control,Device Lock,0,0,1,1,0
+AC-11(1),AC,Access Control,Pattern-hiding Displays,1,0,1,1,0
+AC-12,AC,Access Control,Session Termination,0,0,1,1,0
+AC-12(1),AC,Access Control,User-initiated Logouts,1,0,0,0,0
+AC-12(2),AC,Access Control,Termination Message,1,0,0,0,0
+AC-12(3),AC,Access Control,Timeout Warning Message,1,0,0,0,0
+AC-14,AC,Access Control,Permitted Actions Without Identification or Authentication,0,1,1,1,0
+AC-16,AC,Access Control,Security and Privacy Attributes,0,0,0,0,0
+AC-16(1),AC,Access Control,Dynamic Attribute Association,1,0,0,0,0
+AC-16(2),AC,Access Control,Attribute Value Changes by Authorized Individuals,1,0,0,0,0
+AC-16(3),AC,Access Control,Maintenance of Attribute Associations by System,1,0,0,0,0
+AC-16(4),AC,Access Control,Association of Attributes by Authorized Individuals,1,0,0,0,0
+AC-16(5),AC,Access Control,Attribute Displays on Objects to Be Output,1,0,0,0,0
+AC-16(6),AC,Access Control,Maintenance of Attribute Association,1,0,0,0,0
+AC-16(7),AC,Access Control,Consistent Attribute Interpretation,1,0,0,0,0
+AC-16(8),AC,Access Control,Association Techniques and Technologies,1,0,0,0,0
+AC-16(9),AC,Access Control,Attribute Reassignment — Regrading Mechanisms,1,0,0,0,0
+AC-16(10),AC,Access Control,Attribute Configuration by Authorized Individuals,1,0,0,0,0
+AC-17,AC,Access Control,Remote Access,0,1,1,1,0
+AC-17(1),AC,Access Control,Monitoring and Control,1,0,1,1,0
+AC-17(2),AC,Access Control,Protection of Confidentiality and Integrity Using Encryption,1,0,1,1,0
+AC-17(3),AC,Access Control,Managed Access Control Points,1,0,1,1,0
+AC-17(4),AC,Access Control,Privileged Commands and Access,1,0,1,1,0
+AC-17(6),AC,Access Control,Protection of Mechanism Information,1,0,0,0,0
+AC-17(9),AC,Access Control,Disconnect or Disable Access,1,0,0,0,0
+AC-17(10),AC,Access Control,Authenticate Remote Commands,1,0,0,0,0
+AC-18,AC,Access Control,Wireless Access,0,1,1,1,0
+AC-18(1),AC,Access Control,Authentication and Encryption,1,0,1,1,0
+AC-18(3),AC,Access Control,Disable Wireless Networking,1,0,1,1,0
+AC-18(4),AC,Access Control,Restrict Configurations by Users,1,0,0,1,0
+AC-18(5),AC,Access Control,Antennas and Transmission Power Levels,1,0,0,1,0
+AC-19,AC,Access Control,Access Control for Mobile Devices,0,1,1,1,0
+AC-19(4),AC,Access Control,Restrictions for Classified Information,1,0,0,0,0
+AC-19(5),AC,Access Control,Full Device or Container-based Encryption,1,0,1,1,0
+AC-20,AC,Access Control,Use of External Systems,0,1,1,1,0
+AC-20(1),AC,Access Control,Limits on Authorized Use,1,0,1,1,0
+AC-20(2),AC,Access Control,Portable Storage Devices — Restricted Use,1,0,1,1,0
+AC-20(3),AC,Access Control,Non-organizationally Owned Systems — Restricted Use,1,0,0,0,0
+AC-20(4),AC,Access Control,Network Accessible Storage Devices — Prohibited Use,1,0,0,0,0
+AC-20(5),AC,Access Control,Portable Storage Devices — Prohibited Use,1,0,0,0,0
+AC-21,AC,Access Control,Information Sharing,0,0,1,1,0
+AC-21(1),AC,Access Control,Automated Decision Support,1,0,0,0,0
+AC-21(2),AC,Access Control,Information Search and Retrieval,1,0,0,0,0
+AC-22,AC,Access Control,Publicly Accessible Content,0,1,1,1,0
+AC-23,AC,Access Control,Data Mining Protection,0,0,0,0,0
+AC-24,AC,Access Control,Access Control Decisions,0,0,0,0,0
+AC-24(1),AC,Access Control,Transmit Access Authorization Information,1,0,0,0,0
+AC-24(2),AC,Access Control,No User or Process Identity,1,0,0,0,0
+AC-25,AC,Access Control,Reference Monitor,0,0,0,0,0
+AT-1,AT,Awareness and Training,Policy and Procedures,0,1,1,1,1
+AT-2,AT,Awareness and Training,Literacy Training and Awareness,0,1,1,1,1
+AT-2(1),AT,Awareness and Training,Practical Exercises,1,0,0,0,0
+AT-2(2),AT,Awareness and Training,Insider Threat,1,1,1,1,0
+AT-2(3),AT,Awareness and Training,Social Engineering and Mining,1,0,1,1,0
+AT-2(4),AT,Awareness and Training,Suspicious Communications and Anomalous System Behavior,1,0,0,0,0
+AT-2(5),AT,Awareness and Training,Advanced Persistent Threat,1,0,0,0,0
+AT-2(6),AT,Awareness and Training,Cyber Threat Environment,1,0,0,0,0
+AT-3,AT,Awareness and Training,Role-based Training,0,1,1,1,1
+AT-3(1),AT,Awareness and Training,Environmental Controls,1,0,0,0,0
+AT-3(2),AT,Awareness and Training,Physical Security Controls,1,0,0,0,0
+AT-3(3),AT,Awareness and Training,Practical Exercises,1,0,0,0,0
+AT-3(5),AT,Awareness and Training,Processing Personally Identifiable Information,1,0,0,0,1
+AT-4,AT,Awareness and Training,Training Records,0,1,1,1,1
+AT-6,AT,Awareness and Training,Training Feedback,0,0,0,0,0
+AU-1,AU,Audit and Accountability,Policy and Procedures,0,1,1,1,1
+AU-2,AU,Audit and Accountability,Event Logging,0,1,1,1,1
+AU-3,AU,Audit and Accountability,Content of Audit Records,0,1,1,1,0
+AU-3(1),AU,Audit and Accountability,Additional Audit Information,1,0,1,1,0
+AU-3(3),AU,Audit and Accountability,Limit Personally Identifiable Information Elements,1,0,0,0,1
+AU-4,AU,Audit and Accountability,Audit Log Storage Capacity,0,1,1,1,0
+AU-4(1),AU,Audit and Accountability,Transfer to Alternate Storage,1,0,0,0,0
+AU-5,AU,Audit and Accountability,Response to Audit Logging Process Failures,0,1,1,1,0
+AU-5(1),AU,Audit and Accountability,Storage Capacity Warning,1,0,0,1,0
+AU-5(2),AU,Audit and Accountability,Real-time Alerts,1,0,0,1,0
+AU-5(3),AU,Audit and Accountability,Configurable Traffic Volume Thresholds,1,0,0,0,0
+AU-5(4),AU,Audit and Accountability,Shutdown on Failure,1,0,0,0,0
+AU-5(5),AU,Audit and Accountability,Alternate Audit Logging Capability,1,0,0,0,0
+AU-6,AU,Audit and Accountability,"Audit Record Review, Analysis, and Reporting",0,1,1,1,0
+AU-6(1),AU,Audit and Accountability,Automated Process Integration,1,0,1,1,0
+AU-6(3),AU,Audit and Accountability,Correlate Audit Record Repositories,1,0,1,1,0
+AU-6(4),AU,Audit and Accountability,Central Review and Analysis,1,0,0,0,0
+AU-6(5),AU,Audit and Accountability,Integrated Analysis of Audit Records,1,0,0,1,0
+AU-6(6),AU,Audit and Accountability,Correlation with Physical Monitoring,1,0,0,1,0
+AU-6(7),AU,Audit and Accountability,Permitted Actions,1,0,0,0,0
+AU-6(8),AU,Audit and Accountability,Full Text Analysis of Privileged Commands,1,0,0,0,0
+AU-6(9),AU,Audit and Accountability,Correlation with Information from Nontechnical Sources,1,0,0,0,0
+AU-7,AU,Audit and Accountability,Audit Record Reduction and Report Generation,0,0,1,1,0
+AU-7(1),AU,Audit and Accountability,Automatic Processing,1,0,1,1,0
+AU-8,AU,Audit and Accountability,Time Stamps,0,1,1,1,0
+AU-9,AU,Audit and Accountability,Protection of Audit Information,0,1,1,1,0
+AU-9(1),AU,Audit and Accountability,Hardware Write-once Media,1,0,0,0,0
+AU-9(2),AU,Audit and Accountability,Store on Separate Physical Systems or Components,1,0,0,1,0
+AU-9(3),AU,Audit and Accountability,Cryptographic Protection,1,0,0,1,0
+AU-9(4),AU,Audit and Accountability,Access by Subset of Privileged Users,1,0,1,1,0
+AU-9(5),AU,Audit and Accountability,Dual Authorization,1,0,0,0,0
+AU-9(6),AU,Audit and Accountability,Read-only Access,1,0,0,0,0
+AU-9(7),AU,Audit and Accountability,Store on Component with Different Operating System,1,0,0,0,0
+AU-10,AU,Audit and Accountability,Non-repudiation,0,0,0,1,0
+AU-10(1),AU,Audit and Accountability,Association of Identities,1,0,0,0,0
+AU-10(2),AU,Audit and Accountability,Validate Binding of Information Producer Identity,1,0,0,0,0
+AU-10(3),AU,Audit and Accountability,Chain of Custody,1,0,0,0,0
+AU-10(4),AU,Audit and Accountability,Validate Binding of Information Reviewer Identity,1,0,0,0,0
+AU-11,AU,Audit and Accountability,Audit Record Retention,0,1,1,1,1
+AU-11(1),AU,Audit and Accountability,Long-term Retrieval Capability,1,0,0,0,0
+AU-12,AU,Audit and Accountability,Audit Record Generation,0,1,1,1,0
+AU-12(1),AU,Audit and Accountability,System-wide and Time-correlated Audit Trail,1,0,0,1,0
+AU-12(2),AU,Audit and Accountability,Standardized Formats,1,0,0,0,0
+AU-12(3),AU,Audit and Accountability,Changes by Authorized Individuals,1,0,0,1,0
+AU-12(4),AU,Audit and Accountability,Query Parameter Audits of Personally Identifiable Information,1,0,0,0,0
+AU-13,AU,Audit and Accountability,Monitoring for Information Disclosure,0,0,0,0,0
+AU-13(1),AU,Audit and Accountability,Use of Automated Tools,1,0,0,0,0
+AU-13(2),AU,Audit and Accountability,Review of Monitored Sites,1,0,0,0,0
+AU-13(3),AU,Audit and Accountability,Unauthorized Replication of Information,1,0,0,0,0
+AU-14,AU,Audit and Accountability,Session Audit,0,0,0,0,0
+AU-14(1),AU,Audit and Accountability,System Start-up,1,0,0,0,0
+AU-14(3),AU,Audit and Accountability,Remote Viewing and Listening,1,0,0,0,0
+AU-16,AU,Audit and Accountability,Cross-organizational Audit Logging,0,0,0,0,0
+AU-16(1),AU,Audit and Accountability,Identity Preservation,1,0,0,0,0
+AU-16(2),AU,Audit and Accountability,Sharing of Audit Information,1,0,0,0,0
+AU-16(3),AU,Audit and Accountability,Disassociability,1,0,0,0,0
+CA-1,CA,"Assessment, Authorization, and Monitoring",Policy and Procedures,0,1,1,1,1
+CA-2,CA,"Assessment, Authorization, and Monitoring",Control Assessments,0,1,1,1,1
+CA-2(1),CA,"Assessment, Authorization, and Monitoring",Independent Assessors,1,0,1,1,0
+CA-2(2),CA,"Assessment, Authorization, and Monitoring",Specialized Assessments,1,0,0,1,0
+CA-2(3),CA,"Assessment, Authorization, and Monitoring",Leveraging Results from External Organizations,1,0,0,0,0
+CA-3,CA,"Assessment, Authorization, and Monitoring",Information Exchange,0,1,1,1,0
+CA-3(6),CA,"Assessment, Authorization, and Monitoring",Transfer Authorizations,1,0,0,1,0
+CA-3(7),CA,"Assessment, Authorization, and Monitoring",Transitive Information Exchanges,1,0,0,0,0
+CA-5,CA,"Assessment, Authorization, and Monitoring",Plan of Action and Milestones,0,1,1,1,1
+CA-5(1),CA,"Assessment, Authorization, and Monitoring",Automation Support for Accuracy and Currency,1,0,0,0,0
+CA-6,CA,"Assessment, Authorization, and Monitoring",Authorization,0,1,1,1,1
+CA-6(1),CA,"Assessment, Authorization, and Monitoring",Joint Authorization — Intra-organization,1,0,0,0,0
+CA-6(2),CA,"Assessment, Authorization, and Monitoring",Joint Authorization — Inter-organization,1,0,0,0,0
+CA-7,CA,"Assessment, Authorization, and Monitoring",Continuous Monitoring,0,1,1,1,1
+CA-7(1),CA,"Assessment, Authorization, and Monitoring",Independent Assessment,1,0,1,1,0
+CA-7(3),CA,"Assessment, Authorization, and Monitoring",Trend Analyses,1,0,0,0,0
+CA-7(4),CA,"Assessment, Authorization, and Monitoring",Risk Monitoring,1,1,1,1,1
+CA-7(5),CA,"Assessment, Authorization, and Monitoring",Consistency Analysis,1,0,0,0,0
+CA-7(6),CA,"Assessment, Authorization, and Monitoring",Automation Support for Monitoring,1,0,0,0,0
+CA-8,CA,"Assessment, Authorization, and Monitoring",Penetration Testing,0,0,0,1,0
+CA-8(1),CA,"Assessment, Authorization, and Monitoring",Independent Penetration Testing Agent or Team,1,0,0,1,0
+CA-8(2),CA,"Assessment, Authorization, and Monitoring",Red Team Exercises,1,0,0,0,0
+CA-8(3),CA,"Assessment, Authorization, and Monitoring",Facility Penetration Testing,1,0,0,0,0
+CA-9,CA,"Assessment, Authorization, and Monitoring",Internal System Connections,0,1,1,1,0
+CA-9(1),CA,"Assessment, Authorization, and Monitoring",Compliance Checks,1,0,0,0,0
+CM-1,CM,Configuration Management,Policy and Procedures,0,1,1,1,1
+CM-2,CM,Configuration Management,Baseline Configuration,0,1,1,1,0
+CM-2(2),CM,Configuration Management,Automation Support for Accuracy and Currency,1,0,1,1,0
+CM-2(3),CM,Configuration Management,Retention of Previous Configurations,1,0,1,1,0
+CM-2(6),CM,Configuration Management,Development and Test Environments,1,0,0,0,0
+CM-2(7),CM,Configuration Management,Configure Systems and Components for High-risk Areas,1,0,1,1,0
+CM-3,CM,Configuration Management,Configuration Change Control,0,0,1,1,0
+CM-3(1),CM,Configuration Management,"Automated Documentation, Notification, and Prohibition of Changes",1,0,0,1,0
+CM-3(2),CM,Configuration Management,"Testing, Validation, and Documentation of Changes",1,0,1,1,0
+CM-3(3),CM,Configuration Management,Automated Change Implementation,1,0,0,0,0
+CM-3(4),CM,Configuration Management,Security and Privacy Representatives,1,0,1,1,0
+CM-3(5),CM,Configuration Management,Automated Security Response,1,0,0,0,0
+CM-3(6),CM,Configuration Management,Cryptography Management,1,0,0,1,0
+CM-3(7),CM,Configuration Management,Review System Changes,1,0,0,0,0
+CM-3(8),CM,Configuration Management,Prevent or Restrict Configuration Changes,1,0,0,0,0
+CM-4,CM,Configuration Management,Impact Analyses,0,1,1,1,1
+CM-4(1),CM,Configuration Management,Separate Test Environments,1,0,0,1,0
+CM-4(2),CM,Configuration Management,Verification of Controls,1,0,1,1,0
+CM-5,CM,Configuration Management,Access Restrictions for Change,0,1,1,1,0
+CM-5(1),CM,Configuration Management,Automated Access Enforcement and Audit Records,1,0,0,1,0
+CM-5(4),CM,Configuration Management,Dual Authorization,1,0,0,0,0
+CM-5(5),CM,Configuration Management,Privilege Limitation for Production and Operation,1,0,0,0,0
+CM-5(6),CM,Configuration Management,Limit Library Privileges,1,0,0,0,0
+CM-6,CM,Configuration Management,Configuration Settings,0,1,1,1,0
+CM-6(1),CM,Configuration Management,"Automated Management, Application, and Verification",1,0,0,1,0
+CM-6(2),CM,Configuration Management,Respond to Unauthorized Changes,1,0,0,1,0
+CM-7,CM,Configuration Management,Least Functionality,0,1,1,1,0
+CM-7(1),CM,Configuration Management,Periodic Review,1,0,1,1,0
+CM-7(2),CM,Configuration Management,Prevent Program Execution,1,0,1,1,0
+CM-7(3),CM,Configuration Management,Registration Compliance,1,0,0,0,0
+CM-7(4),CM,Configuration Management,Unauthorized Software — Deny-by-exception,1,0,0,0,0
+CM-7(5),CM,Configuration Management,Authorized Software — Allow-by-exception,1,0,1,1,0
+CM-7(6),CM,Configuration Management,Confined Environments with Limited Privileges,1,0,0,0,0
+CM-7(7),CM,Configuration Management,Code Execution in Protected Environments,1,0,0,0,0
+CM-7(8),CM,Configuration Management,Binary or Machine Executable Code,1,0,0,0,0
+CM-7(9),CM,Configuration Management,Prohibiting The Use of Unauthorized Hardware,1,0,0,0,0
+CM-8,CM,Configuration Management,System Component Inventory,0,1,1,1,0
+CM-8(1),CM,Configuration Management,Updates During Installation and Removal,1,0,1,1,0
+CM-8(2),CM,Configuration Management,Automated Maintenance,1,0,0,1,0
+CM-8(3),CM,Configuration Management,Automated Unauthorized Component Detection,1,0,1,1,0
+CM-8(4),CM,Configuration Management,Accountability Information,1,0,0,1,0
+CM-8(6),CM,Configuration Management,Assessed Configurations and Approved Deviations,1,0,0,0,0
+CM-8(7),CM,Configuration Management,Centralized Repository,1,0,0,0,0
+CM-8(8),CM,Configuration Management,Automated Location Tracking,1,0,0,0,0
+CM-8(9),CM,Configuration Management,Assignment of Components to Systems,1,0,0,0,0
+CM-9,CM,Configuration Management,Configuration Management Plan,0,0,1,1,0
+CM-9(1),CM,Configuration Management,Assignment of Responsibility,1,0,0,0,0
+CM-10,CM,Configuration Management,Software Usage Restrictions,0,1,1,1,0
+CM-10(1),CM,Configuration Management,Open-source Software,1,0,0,0,0
+CM-11,CM,Configuration Management,User-installed Software,0,1,1,1,0
+CM-11(2),CM,Configuration Management,Software Installation with Privileged Status,1,0,0,0,0
+CM-11(3),CM,Configuration Management,Automated Enforcement and Monitoring,1,0,0,0,0
+CM-12,CM,Configuration Management,Information Location,0,0,1,1,0
+CM-12(1),CM,Configuration Management,Automated Tools to Support Information Location,1,0,1,1,0
+CM-13,CM,Configuration Management,Data Action Mapping,0,0,0,0,0
+CM-14,CM,Configuration Management,Signed Components,0,0,0,0,0
+CP-1,CP,Contingency Planning,Policy and Procedures,0,1,1,1,0
+CP-2,CP,Contingency Planning,Contingency Plan,0,1,1,1,0
+CP-2(1),CP,Contingency Planning,Coordinate with Related Plans,1,0,1,1,0
+CP-2(2),CP,Contingency Planning,Capacity Planning,1,0,0,1,0
+CP-2(3),CP,Contingency Planning,Resume Mission and Business Functions,1,0,1,1,0
+CP-2(5),CP,Contingency Planning,Continue Mission and Business Functions,1,0,0,1,0
+CP-2(6),CP,Contingency Planning,Alternate Processing and Storage Sites,1,0,0,0,0
+CP-2(7),CP,Contingency Planning,Coordinate with External Service Providers,1,0,0,0,0
+CP-2(8),CP,Contingency Planning,Identify Critical Assets,1,0,1,1,0
+CP-3,CP,Contingency Planning,Contingency Training,0,1,1,1,0
+CP-3(1),CP,Contingency Planning,Simulated Events,1,0,0,1,0
+CP-3(2),CP,Contingency Planning,Mechanisms Used in Training Environments,1,0,0,0,0
+CP-4,CP,Contingency Planning,Contingency Plan Testing,0,1,1,1,0
+CP-4(1),CP,Contingency Planning,Coordinate with Related Plans,1,0,1,1,0
+CP-4(2),CP,Contingency Planning,Alternate Processing Site,1,0,0,1,0
+CP-4(3),CP,Contingency Planning,Automated Testing,1,0,0,0,0
+CP-4(4),CP,Contingency Planning,Full Recovery and Reconstitution,1,0,0,0,0
+CP-4(5),CP,Contingency Planning,Self-challenge,1,0,0,0,0
+CP-6,CP,Contingency Planning,Alternate Storage Site,0,0,1,1,0
+CP-6(1),CP,Contingency Planning,Separation from Primary Site,1,0,1,1,0
+CP-6(2),CP,Contingency Planning,Recovery Time and Recovery Point Objectives,1,0,0,1,0
+CP-6(3),CP,Contingency Planning,Accessibility,1,0,1,1,0
+CP-7,CP,Contingency Planning,Alternate Processing Site,0,0,1,1,0
+CP-7(1),CP,Contingency Planning,Separation from Primary Site,1,0,1,1,0
+CP-7(2),CP,Contingency Planning,Accessibility,1,0,1,1,0
+CP-7(3),CP,Contingency Planning,Priority of Service,1,0,1,1,0
+CP-7(4),CP,Contingency Planning,Preparation for Use,1,0,0,1,0
+CP-7(6),CP,Contingency Planning,Inability to Return to Primary Site,1,0,0,0,0
+CP-8,CP,Contingency Planning,Telecommunications Services,0,0,1,1,0
+CP-8(1),CP,Contingency Planning,Priority of Service Provisions,1,0,1,1,0
+CP-8(2),CP,Contingency Planning,Single Points of Failure,1,0,1,1,0
+CP-8(3),CP,Contingency Planning,Separation of Primary and Alternate Providers,1,0,0,1,0
+CP-8(4),CP,Contingency Planning,Provider Contingency Plan,1,0,0,1,0
+CP-8(5),CP,Contingency Planning,Alternate Telecommunication Service Testing,1,0,0,0,0
+CP-9,CP,Contingency Planning,System Backup,0,1,1,1,0
+CP-9(1),CP,Contingency Planning,Testing for Reliability and Integrity,1,0,1,1,0
+CP-9(2),CP,Contingency Planning,Test Restoration Using Sampling,1,0,0,1,0
+CP-9(3),CP,Contingency Planning,Separate Storage for Critical Information,1,0,0,1,0
+CP-9(5),CP,Contingency Planning,Transfer to Alternate Storage Site,1,0,0,1,0
+CP-9(6),CP,Contingency Planning,Redundant Secondary System,1,0,0,0,0
+CP-9(7),CP,Contingency Planning,Dual Authorization for Deletion or Destruction,1,0,0,0,0
+CP-9(8),CP,Contingency Planning,Cryptographic Protection,1,0,1,1,0
+CP-10,CP,Contingency Planning,System Recovery and Reconstitution,0,1,1,1,0
+CP-10(2),CP,Contingency Planning,Transaction Recovery,1,0,1,1,0
+CP-10(4),CP,Contingency Planning,Restore Within Time Period,1,0,0,1,0
+CP-10(6),CP,Contingency Planning,Component Protection,1,0,0,0,0
+CP-11,CP,Contingency Planning,Alternate Communications Protocols,0,0,0,0,0
+CP-12,CP,Contingency Planning,Safe Mode,0,0,0,0,0
+CP-13,CP,Contingency Planning,Alternative Security Mechanisms,0,0,0,0,0
+IA-1,IA,Identification and Authentication,Policy and Procedures,0,1,1,1,0
+IA-2,IA,Identification and Authentication,Identification and Authentication (Organizational Users),0,1,1,1,0
+IA-2(1),IA,Identification and Authentication,Multi-factor Authentication to Privileged Accounts,1,1,1,1,0
+IA-2(2),IA,Identification and Authentication,Multi-factor Authentication to Non-privileged Accounts,1,1,1,1,0
+IA-2(5),IA,Identification and Authentication,Individual Authentication with Group Authentication,1,0,0,1,0
+IA-2(6),IA,Identification and Authentication,Access to Accounts —separate Device,1,0,0,0,0
+IA-2(8),IA,Identification and Authentication,Access to Accounts — Replay Resistant,1,1,1,1,0
+IA-2(10),IA,Identification and Authentication,Single Sign-on,1,0,0,0,0
+IA-2(12),IA,Identification and Authentication,Acceptance of PIV Credentials,1,1,1,1,0
+IA-2(13),IA,Identification and Authentication,Out-of-band Authentication,1,0,0,0,0
+IA-3,IA,Identification and Authentication,Device Identification and Authentication,0,0,1,1,0
+IA-3(1),IA,Identification and Authentication,Cryptographic Bidirectional Authentication,1,0,0,0,0
+IA-3(3),IA,Identification and Authentication,Dynamic Address Allocation,1,0,0,0,0
+IA-3(4),IA,Identification and Authentication,Device Attestation,1,0,0,0,0
+IA-4,IA,Identification and Authentication,Identifier Management,0,1,1,1,0
+IA-4(1),IA,Identification and Authentication,Prohibit Account Identifiers as Public Identifiers,1,0,0,0,0
+IA-4(4),IA,Identification and Authentication,Identify User Status,1,0,1,1,0
+IA-4(5),IA,Identification and Authentication,Dynamic Management,1,0,0,0,0
+IA-4(6),IA,Identification and Authentication,Cross-organization Management,1,0,0,0,0
+IA-4(8),IA,Identification and Authentication,Pairwise Pseudonymous Identifiers,1,0,0,0,0
+IA-4(9),IA,Identification and Authentication,Attribute Maintenance and Protection,1,0,0,0,0
+IA-5,IA,Identification and Authentication,Authenticator Management,0,1,1,1,0
+IA-5(1),IA,Identification and Authentication,Password-based Authentication,1,1,1,1,0
+IA-5(2),IA,Identification and Authentication,Public Key-based Authentication,1,0,1,1,0
+IA-5(5),IA,Identification and Authentication,Change Authenticators Prior to Delivery,1,0,0,0,0
+IA-5(6),IA,Identification and Authentication,Protection of Authenticators,1,0,1,1,0
+IA-5(7),IA,Identification and Authentication,No Embedded Unencrypted Static Authenticators,1,0,0,0,0
+IA-5(8),IA,Identification and Authentication,Multiple System Accounts,1,0,0,0,0
+IA-5(9),IA,Identification and Authentication,Federated Credential Management,1,0,0,0,0
+IA-5(10),IA,Identification and Authentication,Dynamic Credential Binding,1,0,0,0,0
+IA-5(12),IA,Identification and Authentication,Biometric Authentication Performance,1,0,0,0,0
+IA-5(13),IA,Identification and Authentication,Expiration of Cached Authenticators,1,0,0,0,0
+IA-5(14),IA,Identification and Authentication,Managing Content of PKI Trust Stores,1,0,0,0,0
+IA-5(15),IA,Identification and Authentication,GSA-approved Products and Services,1,0,0,0,0
+IA-5(16),IA,Identification and Authentication,In-person or Trusted External Party Authenticator Issuance,1,0,0,0,0
+IA-5(17),IA,Identification and Authentication,Presentation Attack Detection for Biometric Authenticators,1,0,0,0,0
+IA-5(18),IA,Identification and Authentication,Password Managers,1,0,0,0,0
+IA-6,IA,Identification and Authentication,Authentication Feedback,0,1,1,1,0
+IA-7,IA,Identification and Authentication,Cryptographic Module Authentication,0,1,1,1,0
+IA-8,IA,Identification and Authentication,Identification and Authentication (Non-organizational Users),0,1,1,1,0
+IA-8(1),IA,Identification and Authentication,Acceptance of PIV Credentials from Other Agencies,1,1,1,1,0
+IA-8(2),IA,Identification and Authentication,Acceptance of External Authenticators,1,1,1,1,0
+IA-8(4),IA,Identification and Authentication,Use of Defined Profiles,1,1,1,1,0
+IA-8(5),IA,Identification and Authentication,Acceptance of PIV-I Credentials,1,0,0,0,0
+IA-8(6),IA,Identification and Authentication,Disassociability,1,0,0,0,0
+IA-9,IA,Identification and Authentication,Service Identification and Authentication,0,0,0,0,0
+IA-10,IA,Identification and Authentication,Adaptive Authentication,0,0,0,0,0
+IA-11,IA,Identification and Authentication,Re-authentication,0,1,1,1,0
+IA-12,IA,Identification and Authentication,Identity Proofing,0,0,1,1,0
+IA-12(1),IA,Identification and Authentication,Supervisor Authorization,1,0,0,0,0
+IA-12(2),IA,Identification and Authentication,Identity Evidence,1,0,1,1,0
+IA-12(3),IA,Identification and Authentication,Identity Evidence Validation and Verification,1,0,1,1,0
+IA-12(4),IA,Identification and Authentication,In-person Validation and Verification,1,0,0,1,0
+IA-12(5),IA,Identification and Authentication,Address Confirmation,1,0,1,1,0
+IA-12(6),IA,Identification and Authentication,Accept Externally-proofed Identities,1,0,0,0,0
+IA-13,IA,Identification and Authentication,Identity Providers and Authorization Servers,0,0,0,0,0
+IA-13(1),IA,Identification and Authentication,Protection of Cryptographic Keys,1,0,0,0,0
+IA-13(2),IA,Identification and Authentication,Verification of Identity Assertions and Access Tokens,1,0,0,0,0
+IA-13(3),IA,Identification and Authentication,Token Management,1,0,0,0,0
+IR-1,IR,Incident Response,Policy and Procedures,0,1,1,1,1
+IR-2,IR,Incident Response,Incident Response Training,0,1,1,1,1
+IR-2(1),IR,Incident Response,Simulated Events,1,0,0,1,0
+IR-2(2),IR,Incident Response,Automated Training Environments,1,0,0,1,0
+IR-2(3),IR,Incident Response,Breach,1,0,0,0,1
+IR-3,IR,Incident Response,Incident Response Testing,0,0,1,1,1
+IR-3(1),IR,Incident Response,Automated Testing,1,0,0,0,0
+IR-3(2),IR,Incident Response,Coordination with Related Plans,1,0,1,1,0
+IR-3(3),IR,Incident Response,Continuous Improvement,1,0,0,0,0
+IR-4,IR,Incident Response,Incident Handling,0,1,1,1,1
+IR-4(1),IR,Incident Response,Automated Incident Handling Processes,1,0,1,1,0
+IR-4(2),IR,Incident Response,Dynamic Reconfiguration,1,0,0,0,0
+IR-4(3),IR,Incident Response,Continuity of Operations,1,0,0,0,0
+IR-4(4),IR,Incident Response,Information Correlation,1,0,0,1,0
+IR-4(5),IR,Incident Response,Automatic Disabling of System,1,0,0,0,0
+IR-4(6),IR,Incident Response,Insider Threats,1,0,0,0,0
+IR-4(7),IR,Incident Response,Insider Threats — Intra-organization Coordination,1,0,0,0,0
+IR-4(8),IR,Incident Response,Correlation with External Organizations,1,0,0,0,0
+IR-4(9),IR,Incident Response,Dynamic Response Capability,1,0,0,0,0
+IR-4(10),IR,Incident Response,Supply Chain Coordination,1,0,0,0,0
+IR-4(11),IR,Incident Response,Integrated Incident Response Team,1,0,0,1,0
+IR-4(12),IR,Incident Response,Malicious Code and Forensic Analysis,1,0,0,0,0
+IR-4(13),IR,Incident Response,Behavior Analysis,1,0,0,0,0
+IR-4(14),IR,Incident Response,Security Operations Center,1,0,0,0,0
+IR-4(15),IR,Incident Response,Public Relations and Reputation Repair,1,0,0,0,0
+IR-5,IR,Incident Response,Incident Monitoring,0,1,1,1,1
+IR-5(1),IR,Incident Response,"Automated Tracking, Data Collection, and Analysis",1,0,0,1,0
+IR-6,IR,Incident Response,Incident Reporting,0,1,1,1,1
+IR-6(1),IR,Incident Response,Automated Reporting,1,0,1,1,0
+IR-6(2),IR,Incident Response,Vulnerabilities Related to Incidents,1,0,0,0,0
+IR-6(3),IR,Incident Response,Supply Chain Coordination,1,0,1,1,0
+IR-7,IR,Incident Response,Incident Response Assistance,0,1,1,1,1
+IR-7(1),IR,Incident Response,Automation Support for Availability of Information and Support,1,0,1,1,0
+IR-7(2),IR,Incident Response,Coordination with External Providers,1,0,0,0,0
+IR-8,IR,Incident Response,Incident Response Plan,0,1,1,1,1
+IR-8(1),IR,Incident Response,Breaches,1,0,0,0,1
+IR-9,IR,Incident Response,Information Spillage Response,0,0,0,0,0
+IR-9(2),IR,Incident Response,Training,1,0,0,0,0
+IR-9(3),IR,Incident Response,Post-spill Operations,1,0,0,0,0
+IR-9(4),IR,Incident Response,Exposure to Unauthorized Personnel,1,0,0,0,0
+MA-1,MA,Maintenance,Policy and Procedures,0,1,1,1,0
+MA-2,MA,Maintenance,Controlled Maintenance,0,1,1,1,0
+MA-2(2),MA,Maintenance,Automated Maintenance Activities,1,0,0,1,0
+MA-3,MA,Maintenance,Maintenance Tools,0,0,1,1,0
+MA-3(1),MA,Maintenance,Inspect Tools,1,0,1,1,0
+MA-3(2),MA,Maintenance,Inspect Media,1,0,1,1,0
+MA-3(3),MA,Maintenance,Prevent Unauthorized Removal,1,0,1,1,0
+MA-3(4),MA,Maintenance,Restricted Tool Use,1,0,0,0,0
+MA-3(5),MA,Maintenance,Execution with Privilege,1,0,0,0,0
+MA-3(6),MA,Maintenance,Software Updates and Patches,1,0,0,0,0
+MA-4,MA,Maintenance,Nonlocal Maintenance,0,1,1,1,0
+MA-4(1),MA,Maintenance,Logging and Review,1,0,0,0,0
+MA-4(3),MA,Maintenance,Comparable Security and Sanitization,1,0,0,1,0
+MA-4(4),MA,Maintenance,Authentication and Separation of Maintenance Sessions,1,0,0,0,0
+MA-4(5),MA,Maintenance,Approvals and Notifications,1,0,0,0,0
+MA-4(6),MA,Maintenance,Cryptographic Protection,1,0,0,0,0
+MA-4(7),MA,Maintenance,Disconnect Verification,1,0,0,0,0
+MA-5,MA,Maintenance,Maintenance Personnel,0,1,1,1,0
+MA-5(1),MA,Maintenance,Individuals Without Appropriate Access,1,0,0,1,0
+MA-5(2),MA,Maintenance,Security Clearances for Classified Systems,1,0,0,0,0
+MA-5(3),MA,Maintenance,Citizenship Requirements for Classified Systems,1,0,0,0,0
+MA-5(4),MA,Maintenance,Foreign Nationals,1,0,0,0,0
+MA-5(5),MA,Maintenance,Non-system Maintenance,1,0,0,0,0
+MA-6,MA,Maintenance,Timely Maintenance,0,0,1,1,0
+MA-6(1),MA,Maintenance,Preventive Maintenance,1,0,0,0,0
+MA-6(2),MA,Maintenance,Predictive Maintenance,1,0,0,0,0
+MA-6(3),MA,Maintenance,Automated Support for Predictive Maintenance,1,0,0,0,0
+MA-7,MA,Maintenance,Field Maintenance,0,0,0,0,0
+MP-1,MP,Media Protection,Policy and Procedures,0,1,1,1,1
+MP-2,MP,Media Protection,Media Access,0,1,1,1,0
+MP-3,MP,Media Protection,Media Marking,0,0,1,1,0
+MP-4,MP,Media Protection,Media Storage,0,0,1,1,0
+MP-4(2),MP,Media Protection,Automated Restricted Access,1,0,0,0,0
+MP-5,MP,Media Protection,Media Transport,0,0,1,1,0
+MP-5(3),MP,Media Protection,Custodians,1,0,0,0,0
+MP-6,MP,Media Protection,Media Sanitization,0,1,1,1,1
+MP-6(1),MP,Media Protection,"Review, Approve, Track, Document, and Verify",1,0,0,1,0
+MP-6(2),MP,Media Protection,Equipment Testing,1,0,0,1,0
+MP-6(3),MP,Media Protection,Nondestructive Techniques,1,0,0,1,0
+MP-6(7),MP,Media Protection,Dual Authorization,1,0,0,0,0
+MP-6(8),MP,Media Protection,Remote Purging or Wiping of Information,1,0,0,0,0
+MP-7,MP,Media Protection,Media Use,0,1,1,1,0
+MP-7(2),MP,Media Protection,Prohibit Use of Sanitization-resistant Media,1,0,0,0,0
+MP-8,MP,Media Protection,Media Downgrading,0,0,0,0,0
+MP-8(1),MP,Media Protection,Documentation of Process,1,0,0,0,0
+MP-8(2),MP,Media Protection,Equipment Testing,1,0,0,0,0
+MP-8(3),MP,Media Protection,Controlled Unclassified Information,1,0,0,0,0
+MP-8(4),MP,Media Protection,Classified Information,1,0,0,0,0
+PE-1,PE,Physical and Environmental Protection,Policy and Procedures,0,1,1,1,0
+PE-2,PE,Physical and Environmental Protection,Physical Access Authorizations,0,1,1,1,0
+PE-2(1),PE,Physical and Environmental Protection,Access by Position or Role,1,0,0,0,0
+PE-2(2),PE,Physical and Environmental Protection,Two Forms of Identification,1,0,0,0,0
+PE-2(3),PE,Physical and Environmental Protection,Restrict Unescorted Access,1,0,0,0,0
+PE-3,PE,Physical and Environmental Protection,Physical Access Control,0,1,1,1,0
+PE-3(1),PE,Physical and Environmental Protection,System Access,1,0,0,1,0
+PE-3(2),PE,Physical and Environmental Protection,Facility and Systems,1,0,0,0,0
+PE-3(3),PE,Physical and Environmental Protection,Continuous Guards,1,0,0,0,0
+PE-3(4),PE,Physical and Environmental Protection,Lockable Casings,1,0,0,0,0
+PE-3(5),PE,Physical and Environmental Protection,Tamper Protection,1,0,0,0,0
+PE-3(7),PE,Physical and Environmental Protection,Physical Barriers,1,0,0,0,0
+PE-3(8),PE,Physical and Environmental Protection,Access Control Vestibules,1,0,0,0,0
+PE-4,PE,Physical and Environmental Protection,Access Control for Transmission,0,0,1,1,0
+PE-5,PE,Physical and Environmental Protection,Access Control for Output Devices,0,0,1,1,0
+PE-5(2),PE,Physical and Environmental Protection,Link to Individual Identity,1,0,0,0,0
+PE-6,PE,Physical and Environmental Protection,Monitoring Physical Access,0,1,1,1,0
+PE-6(1),PE,Physical and Environmental Protection,Intrusion Alarms and Surveillance Equipment,1,0,1,1,0
+PE-6(2),PE,Physical and Environmental Protection,Automated Intrusion Recognition and Responses,1,0,0,0,0
+PE-6(3),PE,Physical and Environmental Protection,Video Surveillance,1,0,0,0,0
+PE-6(4),PE,Physical and Environmental Protection,Monitoring Physical Access to Systems,1,0,0,1,0
+PE-8,PE,Physical and Environmental Protection,Visitor Access Records,0,1,1,1,0
+PE-8(1),PE,Physical and Environmental Protection,Automated Records Maintenance and Review,1,0,0,1,0
+PE-8(3),PE,Physical and Environmental Protection,Limit Personally Identifiable Information Elements,1,0,0,0,1
+PE-9,PE,Physical and Environmental Protection,Power Equipment and Cabling,0,0,1,1,0
+PE-9(1),PE,Physical and Environmental Protection,Redundant Cabling,1,0,0,0,0
+PE-9(2),PE,Physical and Environmental Protection,Automatic Voltage Controls,1,0,0,0,0
+PE-10,PE,Physical and Environmental Protection,Emergency Shutoff,0,0,1,1,0
+PE-11,PE,Physical and Environmental Protection,Emergency Power,0,0,1,1,0
+PE-11(1),PE,Physical and Environmental Protection,Alternate Power Supply — Minimal Operational Capability,1,0,0,1,0
+PE-11(2),PE,Physical and Environmental Protection,Alternate Power Supply — Self-contained,1,0,0,0,0
+PE-12,PE,Physical and Environmental Protection,Emergency Lighting,0,1,1,1,0
+PE-12(1),PE,Physical and Environmental Protection,Essential Mission and Business Functions,1,0,0,0,0
+PE-13,PE,Physical and Environmental Protection,Fire Protection,0,1,1,1,0
+PE-13(1),PE,Physical and Environmental Protection,Detection Systems — Automatic Activation and Notification,1,0,1,1,0
+PE-13(2),PE,Physical and Environmental Protection,Suppression Systems — Automatic Activation and Notification,1,0,0,1,0
+PE-13(4),PE,Physical and Environmental Protection,Inspections,1,0,0,0,0
+PE-14,PE,Physical and Environmental Protection,Environmental Controls,0,1,1,1,0
+PE-14(1),PE,Physical and Environmental Protection,Automatic Controls,1,0,0,0,0
+PE-14(2),PE,Physical and Environmental Protection,Monitoring with Alarms and Notifications,1,0,0,0,0
+PE-15,PE,Physical and Environmental Protection,Water Damage Protection,0,1,1,1,0
+PE-15(1),PE,Physical and Environmental Protection,Automation Support,1,0,0,1,0
+PE-16,PE,Physical and Environmental Protection,Delivery and Removal,0,1,1,1,0
+PE-17,PE,Physical and Environmental Protection,Alternate Work Site,0,0,1,1,0
+PE-18,PE,Physical and Environmental Protection,Location of System Components,0,0,0,1,0
+PE-19,PE,Physical and Environmental Protection,Information Leakage,0,0,0,0,0
+PE-19(1),PE,Physical and Environmental Protection,National Emissions Policies and Procedures,1,0,0,0,0
+PE-20,PE,Physical and Environmental Protection,Asset Monitoring and Tracking,0,0,0,0,0
+PE-21,PE,Physical and Environmental Protection,Electromagnetic Pulse Protection,0,0,0,0,0
+PE-22,PE,Physical and Environmental Protection,Component Marking,0,0,0,0,0
+PE-23,PE,Physical and Environmental Protection,Facility Location,0,0,0,0,0
+PL-1,PL,Planning,Policy and Procedures,0,1,1,1,1
+PL-2,PL,Planning,System Security and Privacy Plans,0,1,1,1,1
+PL-4,PL,Planning,Rules of Behavior,0,1,1,1,1
+PL-4(1),PL,Planning,Social Media and External Site/Application Usage Restrictions,1,1,1,1,1
+PL-7,PL,Planning,Concept of Operations,0,0,0,0,0
+PL-8,PL,Planning,Security and Privacy Architectures,0,0,1,1,1
+PL-8(1),PL,Planning,Defense in Depth,1,0,0,0,0
+PL-8(2),PL,Planning,Supplier Diversity,1,0,0,0,0
+PL-9,PL,Planning,Central Management,0,0,0,0,1
+PL-10,PL,Planning,Baseline Selection,0,1,1,1,0
+PL-11,PL,Planning,Baseline Tailoring,0,1,1,1,0
+PM-1,PM,Program Management,Information Security Program Plan,0,0,0,0,0
+PM-2,PM,Program Management,Information Security Program Leadership Role,0,0,0,0,0
+PM-3,PM,Program Management,Information Security and Privacy Resources,0,0,0,0,1
+PM-4,PM,Program Management,Plan of Action and Milestones Process,0,0,0,0,1
+PM-5,PM,Program Management,System Inventory,0,0,0,0,0
+PM-5(1),PM,Program Management,Inventory of Personally Identifiable Information,1,0,0,0,1
+PM-6,PM,Program Management,Measures of Performance,0,0,0,0,1
+PM-7,PM,Program Management,Enterprise Architecture,0,0,0,0,1
+PM-7(1),PM,Program Management,Offloading,1,0,0,0,0
+PM-8,PM,Program Management,Critical Infrastructure Plan,0,0,0,0,1
+PM-9,PM,Program Management,Risk Management Strategy,0,0,0,0,1
+PM-10,PM,Program Management,Authorization Process,0,0,0,0,1
+PM-11,PM,Program Management,Mission and Business Process Definition,0,0,0,0,1
+PM-12,PM,Program Management,Insider Threat Program,0,0,0,0,0
+PM-13,PM,Program Management,Security and Privacy Workforce,0,0,0,0,1
+PM-14,PM,Program Management,"Testing, Training, and Monitoring",0,0,0,0,1
+PM-15,PM,Program Management,Security and Privacy Groups and Associations,0,0,0,0,0
+PM-16,PM,Program Management,Threat Awareness Program,0,0,0,0,0
+PM-16(1),PM,Program Management,Automated Means for Sharing Threat Intelligence,1,0,0,0,0
+PM-17,PM,Program Management,Protecting Controlled Unclassified Information on External Systems,0,0,0,0,1
+PM-18,PM,Program Management,Privacy Program Plan,0,0,0,0,1
+PM-19,PM,Program Management,Privacy Program Leadership Role,0,0,0,0,1
+PM-20,PM,Program Management,Dissemination of Privacy Program Information,0,0,0,0,1
+PM-20(1),PM,Program Management,"Privacy Policies on Websites, Applications, and Digital Services",1,0,0,0,1
+PM-21,PM,Program Management,Accounting of Disclosures,0,0,0,0,1
+PM-22,PM,Program Management,Personally Identifiable Information Quality Management,0,0,0,0,1
+PM-23,PM,Program Management,Data Governance Body,0,0,0,0,0
+PM-24,PM,Program Management,Data Integrity Board,0,0,0,0,1
+PM-25,PM,Program Management,"Minimization of Personally Identifiable Information Used in Testing, Training, and Research",0,0,0,0,1
+PM-26,PM,Program Management,Complaint Management,0,0,0,0,1
+PM-27,PM,Program Management,Privacy Reporting,0,0,0,0,1
+PM-28,PM,Program Management,Risk Framing,0,0,0,0,1
+PM-29,PM,Program Management,Risk Management Program Leadership Roles,0,0,0,0,0
+PM-30,PM,Program Management,Supply Chain Risk Management Strategy,0,0,0,0,0
+PM-30(1),PM,Program Management,Suppliers of Critical or Mission-essential Items,1,0,0,0,0
+PM-31,PM,Program Management,Continuous Monitoring Strategy,0,0,0,0,1
+PM-32,PM,Program Management,Purposing,0,0,0,0,0
+PS-1,PS,Personnel Security,Policy and Procedures,0,1,1,1,0
+PS-2,PS,Personnel Security,Position Risk Designation,0,1,1,1,0
+PS-3,PS,Personnel Security,Personnel Screening,0,1,1,1,0
+PS-3(1),PS,Personnel Security,Classified Information,1,0,0,0,0
+PS-3(2),PS,Personnel Security,Formal Indoctrination,1,0,0,0,0
+PS-3(3),PS,Personnel Security,Information Requiring Special Protective Measures,1,0,0,0,0
+PS-3(4),PS,Personnel Security,Citizenship Requirements,1,0,0,0,0
+PS-4,PS,Personnel Security,Personnel Termination,0,1,1,1,0
+PS-4(1),PS,Personnel Security,Post-employment Requirements,1,0,0,0,0
+PS-4(2),PS,Personnel Security,Automated Actions,1,0,0,1,0
+PS-5,PS,Personnel Security,Personnel Transfer,0,1,1,1,0
+PS-6,PS,Personnel Security,Access Agreements,0,1,1,1,1
+PS-6(2),PS,Personnel Security,Classified Information Requiring Special Protection,1,0,0,0,0
+PS-6(3),PS,Personnel Security,Post-employment Requirements,1,0,0,0,0
+PS-7,PS,Personnel Security,External Personnel Security,0,1,1,1,0
+PS-8,PS,Personnel Security,Personnel Sanctions,0,1,1,1,0
+PS-9,PS,Personnel Security,Position Descriptions,0,1,1,1,0
+PT-1,PT,Personally Identifiable Information Processing and Transparency,Policy and Procedures,0,0,0,0,1
+PT-2,PT,Personally Identifiable Information Processing and Transparency,Authority to Process Personally Identifiable Information,0,0,0,0,1
+PT-2(1),PT,Personally Identifiable Information Processing and Transparency,Data Tagging,1,0,0,0,0
+PT-2(2),PT,Personally Identifiable Information Processing and Transparency,Automation,1,0,0,0,0
+PT-3,PT,Personally Identifiable Information Processing and Transparency,Personally Identifiable Information Processing Purposes,0,0,0,0,1
+PT-3(1),PT,Personally Identifiable Information Processing and Transparency,Data Tagging,1,0,0,0,0
+PT-3(2),PT,Personally Identifiable Information Processing and Transparency,Automation,1,0,0,0,0
+PT-4,PT,Personally Identifiable Information Processing and Transparency,Consent,0,0,0,0,1
+PT-4(1),PT,Personally Identifiable Information Processing and Transparency,Tailored Consent,1,0,0,0,0
+PT-4(2),PT,Personally Identifiable Information Processing and Transparency,Just-in-time Consent,1,0,0,0,0
+PT-4(3),PT,Personally Identifiable Information Processing and Transparency,Revocation,1,0,0,0,0
+PT-5,PT,Personally Identifiable Information Processing and Transparency,Privacy Notice,0,0,0,0,1
+PT-5(1),PT,Personally Identifiable Information Processing and Transparency,Just-in-time Notice,1,0,0,0,0
+PT-5(2),PT,Personally Identifiable Information Processing and Transparency,Privacy Act Statements,1,0,0,0,1
+PT-6,PT,Personally Identifiable Information Processing and Transparency,System of Records Notice,0,0,0,0,1
+PT-6(1),PT,Personally Identifiable Information Processing and Transparency,Routine Uses,1,0,0,0,1
+PT-6(2),PT,Personally Identifiable Information Processing and Transparency,Exemption Rules,1,0,0,0,1
+PT-7,PT,Personally Identifiable Information Processing and Transparency,Specific Categories of Personally Identifiable Information,0,0,0,0,1
+PT-7(1),PT,Personally Identifiable Information Processing and Transparency,Social Security Numbers,1,0,0,0,1
+PT-7(2),PT,Personally Identifiable Information Processing and Transparency,First Amendment Information,1,0,0,0,1
+PT-8,PT,Personally Identifiable Information Processing and Transparency,Computer Matching Requirements,0,0,0,0,1
+RA-1,RA,Risk Assessment,Policy and Procedures,0,1,1,1,1
+RA-2,RA,Risk Assessment,Security Categorization,0,1,1,1,0
+RA-2(1),RA,Risk Assessment,Impact-level Prioritization,1,0,0,0,0
+RA-3,RA,Risk Assessment,Risk Assessment,0,1,1,1,1
+RA-3(1),RA,Risk Assessment,Supply Chain Risk Assessment,1,1,1,1,0
+RA-3(2),RA,Risk Assessment,Use of All-source Intelligence,1,0,0,0,0
+RA-3(3),RA,Risk Assessment,Dynamic Threat Awareness,1,0,0,0,0
+RA-3(4),RA,Risk Assessment,Predictive Cyber Analytics,1,0,0,0,0
+RA-5,RA,Risk Assessment,Vulnerability Monitoring and Scanning,0,1,1,1,0
+RA-5(2),RA,Risk Assessment,Update Vulnerabilities to Be Scanned,1,1,1,1,0
+RA-5(3),RA,Risk Assessment,Breadth and Depth of Coverage,1,0,0,0,0
+RA-5(4),RA,Risk Assessment,Discoverable Information,1,0,0,1,0
+RA-5(5),RA,Risk Assessment,Privileged Access,1,0,1,1,0
+RA-5(6),RA,Risk Assessment,Automated Trend Analyses,1,0,0,0,0
+RA-5(8),RA,Risk Assessment,Review Historic Audit Logs,1,0,0,0,0
+RA-5(10),RA,Risk Assessment,Correlate Scanning Information,1,0,0,0,0
+RA-5(11),RA,Risk Assessment,Public Disclosure Program,1,1,1,1,0
+RA-6,RA,Risk Assessment,Technical Surveillance Countermeasures Survey,0,0,0,0,0
+RA-7,RA,Risk Assessment,Risk Response,0,1,1,1,1
+RA-8,RA,Risk Assessment,Privacy Impact Assessments,0,0,0,0,1
+RA-9,RA,Risk Assessment,Criticality Analysis,0,0,1,1,0
+RA-10,RA,Risk Assessment,Threat Hunting,0,0,0,0,0
+SA-1,SA,System and Services Acquisition,Policy and Procedures,0,1,1,1,1
+SA-2,SA,System and Services Acquisition,Allocation of Resources,0,1,1,1,1
+SA-3,SA,System and Services Acquisition,System Development Life Cycle,0,1,1,1,1
+SA-3(1),SA,System and Services Acquisition,Manage Preproduction Environment,1,0,0,0,0
+SA-3(2),SA,System and Services Acquisition,Use of Live or Operational Data,1,0,0,0,0
+SA-3(3),SA,System and Services Acquisition,Technology Refresh,1,0,0,0,0
+SA-4,SA,System and Services Acquisition,Acquisition Process,0,1,1,1,1
+SA-4(1),SA,System and Services Acquisition,Functional Properties of Controls,1,0,1,1,0
+SA-4(2),SA,System and Services Acquisition,Design and Implementation Information for Controls,1,0,1,1,0
+SA-4(3),SA,System and Services Acquisition,"Development Methods, Techniques, and Practices",1,0,0,0,0
+SA-4(5),SA,System and Services Acquisition,"System, Component, and Service Configurations",1,0,0,1,0
+SA-4(6),SA,System and Services Acquisition,Use of Information Assurance Products,1,0,0,0,0
+SA-4(7),SA,System and Services Acquisition,NIAP-approved Protection Profiles ,1,0,0,0,0
+SA-4(8),SA,System and Services Acquisition,Continuous Monitoring Plan for Controls,1,0,0,0,0
+SA-4(9),SA,System and Services Acquisition,"Functions, Ports, Protocols, and Services in Use",1,0,1,1,0
+SA-4(10),SA,System and Services Acquisition,Use of Approved PIV Products,1,1,1,1,0
+SA-4(11),SA,System and Services Acquisition,System of Records,1,0,0,0,0
+SA-4(12),SA,System and Services Acquisition,Data Ownership,1,0,0,0,0
+SA-5,SA,System and Services Acquisition,System Documentation,0,1,1,1,0
+SA-8,SA,System and Services Acquisition,Security and Privacy Engineering Principles,0,1,1,1,0
+SA-8(1),SA,System and Services Acquisition,Clear Abstractions,1,0,0,0,0
+SA-8(2),SA,System and Services Acquisition,Least Common Mechanism,1,0,0,0,0
+SA-8(3),SA,System and Services Acquisition,Modularity and Layering,1,0,0,0,0
+SA-8(4),SA,System and Services Acquisition,Partially Ordered Dependencies,1,0,0,0,0
+SA-8(5),SA,System and Services Acquisition,Efficiently Mediated Access,1,0,0,0,0
+SA-8(6),SA,System and Services Acquisition,Minimized Sharing,1,0,0,0,0
+SA-8(7),SA,System and Services Acquisition,Reduced Complexity,1,0,0,0,0
+SA-8(8),SA,System and Services Acquisition,Secure Evolvability,1,0,0,0,0
+SA-8(9),SA,System and Services Acquisition,Trusted Components,1,0,0,0,0
+SA-8(10),SA,System and Services Acquisition,Hierarchical Trust,1,0,0,0,0
+SA-8(11),SA,System and Services Acquisition,Inverse Modification Threshold,1,0,0,0,0
+SA-8(12),SA,System and Services Acquisition,Hierarchical Protection,1,0,0,0,0
+SA-8(13),SA,System and Services Acquisition,Minimized Security Elements,1,0,0,0,0
+SA-8(14),SA,System and Services Acquisition,Least Privilege,1,0,0,0,0
+SA-8(15),SA,System and Services Acquisition,Predicate Permission,1,0,0,0,0
+SA-8(16),SA,System and Services Acquisition,Self-reliant Trustworthiness,1,0,0,0,0
+SA-8(17),SA,System and Services Acquisition,Secure Distributed Composition,1,0,0,0,0
+SA-8(18),SA,System and Services Acquisition,Trusted Communications Channels,1,0,0,0,0
+SA-8(19),SA,System and Services Acquisition,Continuous Protection,1,0,0,0,0
+SA-8(20),SA,System and Services Acquisition,Secure Metadata Management,1,0,0,0,0
+SA-8(21),SA,System and Services Acquisition,Self-analysis,1,0,0,0,0
+SA-8(22),SA,System and Services Acquisition,Accountability and Traceability,1,0,0,0,0
+SA-8(23),SA,System and Services Acquisition,Secure Defaults,1,0,0,0,0
+SA-8(24),SA,System and Services Acquisition,Secure Failure and Recovery,1,0,0,0,0
+SA-8(25),SA,System and Services Acquisition,Economic Security,1,0,0,0,0
+SA-8(26),SA,System and Services Acquisition,Performance Security,1,0,0,0,0
+SA-8(27),SA,System and Services Acquisition,Human Factored Security,1,0,0,0,0
+SA-8(28),SA,System and Services Acquisition,Acceptable Security,1,0,0,0,0
+SA-8(29),SA,System and Services Acquisition,Repeatable and Documented Procedures,1,0,0,0,0
+SA-8(30),SA,System and Services Acquisition,Procedural Rigor,1,0,0,0,0
+SA-8(31),SA,System and Services Acquisition,Secure System Modification,1,0,0,0,0
+SA-8(32),SA,System and Services Acquisition,Sufficient Documentation,1,0,0,0,0
+SA-8(33),SA,System and Services Acquisition,Minimization,1,0,0,0,1
+SA-9,SA,System and Services Acquisition,External System Services,0,1,1,1,1
+SA-9(1),SA,System and Services Acquisition,Risk Assessments and Organizational Approvals,1,0,0,0,0
+SA-9(2),SA,System and Services Acquisition,"Identification of Functions, Ports, Protocols, and Services",1,0,1,1,0
+SA-9(3),SA,System and Services Acquisition,Establish and Maintain Trust Relationship with Providers,1,0,0,0,0
+SA-9(4),SA,System and Services Acquisition,Consistent Interests of Consumers and Providers,1,0,0,0,0
+SA-9(5),SA,System and Services Acquisition,"Processing, Storage, and Service Location",1,0,0,0,0
+SA-9(6),SA,System and Services Acquisition,Organization-controlled Cryptographic Keys,1,0,0,0,0
+SA-9(7),SA,System and Services Acquisition,Organization-controlled Integrity Checking,1,0,0,0,0
+SA-9(8),SA,System and Services Acquisition,Processing and Storage Location — U.S. Jurisdiction,1,0,0,0,0
+SA-10,SA,System and Services Acquisition,Developer Configuration Management,0,0,1,1,0
+SA-10(1),SA,System and Services Acquisition,Software and Firmware Integrity Verification,1,0,0,0,0
+SA-10(2),SA,System and Services Acquisition,Alternative Configuration Management Processes,1,0,0,0,0
+SA-10(3),SA,System and Services Acquisition,Hardware Integrity Verification,1,0,0,0,0
+SA-10(4),SA,System and Services Acquisition,Trusted Generation,1,0,0,0,0
+SA-10(5),SA,System and Services Acquisition,Mapping Integrity for Version Control,1,0,0,0,0
+SA-10(6),SA,System and Services Acquisition,Trusted Distribution,1,0,0,0,0
+SA-10(7),SA,System and Services Acquisition,Security and Privacy Representatives,1,0,0,0,0
+SA-11,SA,System and Services Acquisition,Developer Testing and Evaluation,0,0,1,1,1
+SA-11(1),SA,System and Services Acquisition,Static Code Analysis,1,0,0,0,0
+SA-11(2),SA,System and Services Acquisition,Threat Modeling and Vulnerability Analyses,1,0,0,0,0
+SA-11(3),SA,System and Services Acquisition,Independent Verification of Assessment Plans and Evidence,1,0,0,0,0
+SA-11(4),SA,System and Services Acquisition,Manual Code Reviews,1,0,0,0,0
+SA-11(5),SA,System and Services Acquisition,Penetration Testing,1,0,0,0,0
+SA-11(6),SA,System and Services Acquisition,Attack Surface Reviews,1,0,0,0,0
+SA-11(7),SA,System and Services Acquisition,Verify Scope of Testing and Evaluation,1,0,0,0,0
+SA-11(8),SA,System and Services Acquisition,Dynamic Code Analysis,1,0,0,0,0
+SA-11(9),SA,System and Services Acquisition,Interactive Application Security Testing,1,0,0,0,0
+SA-15,SA,System and Services Acquisition,"Development Process, Standards, and Tools",0,0,1,1,0
+SA-15(1),SA,System and Services Acquisition,Quality Metrics,1,0,0,0,0
+SA-15(2),SA,System and Services Acquisition,Security and Privacy Tracking Tools,1,0,0,0,0
+SA-15(3),SA,System and Services Acquisition,Criticality Analysis,1,0,1,1,0
+SA-15(5),SA,System and Services Acquisition,Attack Surface Reduction,1,0,0,0,0
+SA-15(6),SA,System and Services Acquisition,Continuous Improvement,1,0,0,0,0
+SA-15(7),SA,System and Services Acquisition,Automated Vulnerability Analysis,1,0,0,0,0
+SA-15(8),SA,System and Services Acquisition,Reuse of Threat and Vulnerability Information,1,0,0,0,0
+SA-15(10),SA,System and Services Acquisition,Incident Response Plan,1,0,0,0,0
+SA-15(11),SA,System and Services Acquisition,Archive System or Component,1,0,0,0,0
+SA-15(12),SA,System and Services Acquisition,Minimize Personally Identifiable Information,1,0,0,0,0
+SA-15(13),SA,System and Services Acquisition,Logging Syntax,1,0,0,0,0
+SA-16,SA,System and Services Acquisition,Developer-provided Training,0,0,0,1,0
+SA-17,SA,System and Services Acquisition,Developer Security and Privacy Architecture and Design,0,0,0,1,0
+SA-17(1),SA,System and Services Acquisition,Formal Policy Model,1,0,0,0,0
+SA-17(2),SA,System and Services Acquisition,Security-relevant Components,1,0,0,0,0
+SA-17(3),SA,System and Services Acquisition,Formal Correspondence,1,0,0,0,0
+SA-17(4),SA,System and Services Acquisition,Informal Correspondence,1,0,0,0,0
+SA-17(5),SA,System and Services Acquisition,Conceptually Simple Design,1,0,0,0,0
+SA-17(6),SA,System and Services Acquisition,Structure for Testing,1,0,0,0,0
+SA-17(7),SA,System and Services Acquisition,Structure for Least Privilege,1,0,0,0,0
+SA-17(8),SA,System and Services Acquisition,Orchestration,1,0,0,0,0
+SA-17(9),SA,System and Services Acquisition,Design Diversity,1,0,0,0,0
+SA-20,SA,System and Services Acquisition,Customized Development of Critical Components,0,0,0,0,0
+SA-21,SA,System and Services Acquisition,Developer Screening,0,0,0,1,0
+SA-22,SA,System and Services Acquisition,Unsupported System Components,0,1,1,1,0
+SA-23,SA,System and Services Acquisition,Specialization,0,0,0,0,0
+SA-24,SA,System and Services Acquisition,Design For Cyber Resiliency,0,0,0,0,0
+SC-1,SC,System and Communications Protection,Policy and Procedures,0,1,1,1,0
+SC-2,SC,System and Communications Protection,Separation of System and User Functionality,0,0,1,1,0
+SC-2(1),SC,System and Communications Protection,Interfaces for Non-privileged Users,1,0,0,0,0
+SC-2(2),SC,System and Communications Protection,Disassociability,1,0,0,0,0
+SC-3,SC,System and Communications Protection,Security Function Isolation,0,0,0,1,0
+SC-3(1),SC,System and Communications Protection,Hardware Separation,1,0,0,0,0
+SC-3(2),SC,System and Communications Protection,Access and Flow Control Functions,1,0,0,0,0
+SC-3(3),SC,System and Communications Protection,Minimize Nonsecurity Functionality,1,0,0,0,0
+SC-3(4),SC,System and Communications Protection,Module Coupling and Cohesiveness,1,0,0,0,0
+SC-3(5),SC,System and Communications Protection,Layered Structures,1,0,0,0,0
+SC-4,SC,System and Communications Protection,Information in Shared System Resources,0,0,1,1,0
+SC-4(2),SC,System and Communications Protection,Multilevel or Periods Processing,1,0,0,0,0
+SC-5,SC,System and Communications Protection,Denial-of-service Protection,0,1,1,1,0
+SC-5(1),SC,System and Communications Protection,Restrict Ability to Attack Other Systems,1,0,0,0,0
+SC-5(2),SC,System and Communications Protection,"Capacity, Bandwidth, and Redundancy",1,0,0,0,0
+SC-5(3),SC,System and Communications Protection,Detection and Monitoring,1,0,0,0,0
+SC-6,SC,System and Communications Protection,Resource Availability,0,0,0,0,0
+SC-7,SC,System and Communications Protection,Boundary Protection,0,1,1,1,0
+SC-7(3),SC,System and Communications Protection,Access Points,1,0,1,1,0
+SC-7(4),SC,System and Communications Protection,External Telecommunications Services,1,0,1,1,0
+SC-7(5),SC,System and Communications Protection,Deny by Default — Allow by Exception,1,0,1,1,0
+SC-7(7),SC,System and Communications Protection,Split Tunneling for Remote Devices,1,0,1,1,0
+SC-7(8),SC,System and Communications Protection,Route Traffic to Authenticated Proxy Servers,1,0,1,1,0
+SC-7(9),SC,System and Communications Protection,Restrict Threatening Outgoing Communications Traffic,1,0,0,0,0
+SC-7(10),SC,System and Communications Protection,Prevent Exfiltration,1,0,0,0,0
+SC-7(11),SC,System and Communications Protection,Restrict Incoming Communications Traffic,1,0,0,0,0
+SC-7(12),SC,System and Communications Protection,Host-based Protection,1,0,0,0,0
+SC-7(13),SC,System and Communications Protection,"Isolation of Security Tools, Mechanisms, and Support Components",1,0,0,0,0
+SC-7(14),SC,System and Communications Protection,Protect Against Unauthorized Physical Connections,1,0,0,0,0
+SC-7(15),SC,System and Communications Protection,Networked Privileged Accesses,1,0,0,0,0
+SC-7(16),SC,System and Communications Protection,Prevent Discovery of System Components,1,0,0,0,0
+SC-7(17),SC,System and Communications Protection,Automated Enforcement of Protocol Formats,1,0,0,0,0
+SC-7(18),SC,System and Communications Protection,Fail Secure,1,0,0,1,0
+SC-7(19),SC,System and Communications Protection,Block Communication from Non-organizationally Configured Hosts,1,0,0,0,0
+SC-7(20),SC,System and Communications Protection,Dynamic Isolation and Segregation,1,0,0,0,0
+SC-7(21),SC,System and Communications Protection,Isolation of System Components,1,0,0,1,0
+SC-7(22),SC,System and Communications Protection,Separate Subnets for Connecting to Different Security Domains,1,0,0,0,0
+SC-7(23),SC,System and Communications Protection,Disable Sender Feedback on Protocol Validation Failure,1,0,0,0,0
+SC-7(24),SC,System and Communications Protection,Personally Identifiable Information,1,0,0,0,1
+SC-7(25),SC,System and Communications Protection,Unclassified National Security System Connections,1,0,0,0,0
+SC-7(26),SC,System and Communications Protection,Classified National Security System Connections,1,0,0,0,0
+SC-7(27),SC,System and Communications Protection,Unclassified Non-national Security System Connections,1,0,0,0,0
+SC-7(28),SC,System and Communications Protection,Connections to Public Networks,1,0,0,0,0
+SC-7(29),SC,System and Communications Protection,Separate Subnets to Isolate Functions,1,0,0,0,0
+SC-8,SC,System and Communications Protection,Transmission Confidentiality and Integrity,0,0,1,1,0
+SC-8(1),SC,System and Communications Protection,Cryptographic Protection,1,0,1,1,0
+SC-8(2),SC,System and Communications Protection,Pre- and Post-transmission Handling,1,0,0,0,0
+SC-8(3),SC,System and Communications Protection,Cryptographic Protection for Message Externals,1,0,0,0,0
+SC-8(4),SC,System and Communications Protection,Conceal or Randomize Communications,1,0,0,0,0
+SC-8(5),SC,System and Communications Protection,Protected Distribution System,1,0,0,0,0
+SC-10,SC,System and Communications Protection,Network Disconnect,0,0,1,1,0
+SC-11,SC,System and Communications Protection,Trusted Path,0,0,0,0,0
+SC-11(1),SC,System and Communications Protection,Irrefutable Communications Path,1,0,0,0,0
+SC-12,SC,System and Communications Protection,Cryptographic Key Establishment and Management,0,1,1,1,0
+SC-12(1),SC,System and Communications Protection,Availability,1,0,0,1,0
+SC-12(2),SC,System and Communications Protection,Symmetric Keys,1,0,0,0,0
+SC-12(3),SC,System and Communications Protection,Asymmetric Keys,1,0,0,0,0
+SC-12(6),SC,System and Communications Protection,Physical Control of Keys,1,0,0,0,0
+SC-13,SC,System and Communications Protection,Cryptographic Protection,0,1,1,1,0
+SC-15,SC,System and Communications Protection,Collaborative Computing Devices and Applications,0,1,1,1,0
+SC-15(1),SC,System and Communications Protection,Physical or Logical Disconnect,1,0,0,0,0
+SC-15(3),SC,System and Communications Protection,Disabling and Removal in Secure Work Areas,1,0,0,0,0
+SC-15(4),SC,System and Communications Protection,Explicitly Indicate Current Participants,1,0,0,0,0
+SC-16,SC,System and Communications Protection,Transmission of Security and Privacy Attributes,0,0,0,0,0
+SC-16(1),SC,System and Communications Protection,Integrity Verification,1,0,0,0,0
+SC-16(2),SC,System and Communications Protection,Anti-spoofing Mechanisms,1,0,0,0,0
+SC-16(3),SC,System and Communications Protection,Cryptographic Binding,1,0,0,0,0
+SC-17,SC,System and Communications Protection,Public Key Infrastructure Certificates,0,0,1,1,0
+SC-18,SC,System and Communications Protection,Mobile Code,0,0,1,1,0
+SC-18(1),SC,System and Communications Protection,Identify Unacceptable Code and Take Corrective Actions,1,0,0,0,0
+SC-18(2),SC,System and Communications Protection,"Acquisition, Development, and Use",1,0,0,0,0
+SC-18(3),SC,System and Communications Protection,Prevent Downloading and Execution,1,0,0,0,0
+SC-18(4),SC,System and Communications Protection,Prevent Automatic Execution,1,0,0,0,0
+SC-18(5),SC,System and Communications Protection,Allow Execution Only in Confined Environments,1,0,0,0,0
+SC-20,SC,System and Communications Protection,Secure Name/Address Resolution Service (Authoritative Source),0,1,1,1,0
+SC-20(2),SC,System and Communications Protection,Data Origin and Integrity,1,0,0,0,0
+SC-21,SC,System and Communications Protection,Secure Name/Address Resolution Service (Recursive or Caching Resolver),0,1,1,1,0
+SC-22,SC,System and Communications Protection,Architecture and Provisioning for Name/Address Resolution Service,0,1,1,1,0
+SC-23,SC,System and Communications Protection,Session Authenticity,0,0,1,1,0
+SC-23(1),SC,System and Communications Protection,Invalidate Session Identifiers at Logout,1,0,0,0,0
+SC-23(3),SC,System and Communications Protection,Unique System-generated Session Identifiers,1,0,0,0,0
+SC-23(5),SC,System and Communications Protection,Allowed Certificate Authorities,1,0,0,0,0
+SC-24,SC,System and Communications Protection,Fail in Known State,0,0,0,1,0
+SC-25,SC,System and Communications Protection,Thin Nodes,0,0,0,0,0
+SC-26,SC,System and Communications Protection,Decoys,0,0,0,0,0
+SC-27,SC,System and Communications Protection,Platform-independent Applications,0,0,0,0,0
+SC-28,SC,System and Communications Protection,Protection of Information at Rest,0,0,1,1,0
+SC-28(1),SC,System and Communications Protection,Cryptographic Protection,1,0,1,1,0
+SC-28(2),SC,System and Communications Protection,Offline Storage,1,0,0,0,0
+SC-28(3),SC,System and Communications Protection,Cryptographic Keys,1,0,0,0,0
+SC-29,SC,System and Communications Protection,Heterogeneity,0,0,0,0,0
+SC-29(1),SC,System and Communications Protection,Virtualization Techniques,1,0,0,0,0
+SC-30,SC,System and Communications Protection,Concealment and Misdirection,0,0,0,0,0
+SC-30(2),SC,System and Communications Protection,Randomness,1,0,0,0,0
+SC-30(3),SC,System and Communications Protection,Change Processing and Storage Locations,1,0,0,0,0
+SC-30(4),SC,System and Communications Protection,Misleading Information,1,0,0,0,0
+SC-30(5),SC,System and Communications Protection,Concealment of System Components,1,0,0,0,0
+SC-31,SC,System and Communications Protection,Covert Channel Analysis,0,0,0,0,0
+SC-31(1),SC,System and Communications Protection,Test Covert Channels for Exploitability,1,0,0,0,0
+SC-31(2),SC,System and Communications Protection,Maximum Bandwidth,1,0,0,0,0
+SC-31(3),SC,System and Communications Protection,Measure Bandwidth in Operational Environments,1,0,0,0,0
+SC-32,SC,System and Communications Protection,System Partitioning,0,0,0,0,0
+SC-32(1),SC,System and Communications Protection,Separate Physical Domains for Privileged Functions,1,0,0,0,0
+SC-34,SC,System and Communications Protection,Non-modifiable Executable Programs,0,0,0,0,0
+SC-34(1),SC,System and Communications Protection,No Writable Storage,1,0,0,0,0
+SC-34(2),SC,System and Communications Protection,Integrity Protection on Read-only Media,1,0,0,0,0
+SC-35,SC,System and Communications Protection,External Malicious Code Identification,0,0,0,0,0
+SC-36,SC,System and Communications Protection,Distributed Processing and Storage,0,0,0,0,0
+SC-36(1),SC,System and Communications Protection,Polling Techniques,1,0,0,0,0
+SC-36(2),SC,System and Communications Protection,Synchronization,1,0,0,0,0
+SC-37,SC,System and Communications Protection,Out-of-band Channels,0,0,0,0,0
+SC-37(1),SC,System and Communications Protection,Ensure Delivery and Transmission,1,0,0,0,0
+SC-38,SC,System and Communications Protection,Operations Security,0,0,0,0,0
+SC-39,SC,System and Communications Protection,Process Isolation,0,1,1,1,0
+SC-39(1),SC,System and Communications Protection,Hardware Separation,1,0,0,0,0
+SC-39(2),SC,System and Communications Protection,Separate Execution Domain Per Thread,1,0,0,0,0
+SC-40,SC,System and Communications Protection,Wireless Link Protection,0,0,0,0,0
+SC-40(1),SC,System and Communications Protection,Electromagnetic Interference,1,0,0,0,0
+SC-40(2),SC,System and Communications Protection,Reduce Detection Potential,1,0,0,0,0
+SC-40(3),SC,System and Communications Protection,Imitative or Manipulative Communications Deception,1,0,0,0,0
+SC-40(4),SC,System and Communications Protection,Signal Parameter Identification,1,0,0,0,0
+SC-41,SC,System and Communications Protection,Port and I/O Device Access,0,0,0,0,0
+SC-42,SC,System and Communications Protection,Sensor Capability and Data,0,0,0,0,0
+SC-42(1),SC,System and Communications Protection,Reporting to Authorized Individuals or Roles,1,0,0,0,0
+SC-42(2),SC,System and Communications Protection,Authorized Use,1,0,0,0,0
+SC-42(4),SC,System and Communications Protection,Notice of Collection,1,0,0,0,0
+SC-42(5),SC,System and Communications Protection,Collection Minimization,1,0,0,0,0
+SC-43,SC,System and Communications Protection,Usage Restrictions,0,0,0,0,0
+SC-44,SC,System and Communications Protection,Detonation Chambers,0,0,0,0,0
+SC-45,SC,System and Communications Protection,System Time Synchronization,0,0,0,0,0
+SC-45(1),SC,System and Communications Protection,Synchronization with Authoritative Time Source,1,0,0,0,0
+SC-45(2),SC,System and Communications Protection,Secondary Authoritative Time Source,1,0,0,0,0
+SC-46,SC,System and Communications Protection,Cross Domain Policy Enforcement,0,0,0,0,0
+SC-47,SC,System and Communications Protection,Alternate Communications Paths,0,0,0,0,0
+SC-48,SC,System and Communications Protection,Sensor Relocation,0,0,0,0,0
+SC-48(1),SC,System and Communications Protection,Dynamic Relocation of Sensors or Monitoring Capabilities,1,0,0,0,0
+SC-49,SC,System and Communications Protection,Hardware-enforced Separation and Policy Enforcement,0,0,0,0,0
+SC-50,SC,System and Communications Protection,Software-enforced Separation and Policy Enforcement,0,0,0,0,0
+SC-51,SC,System and Communications Protection,Hardware-based Protection,0,0,0,0,0
+SI-1,SI,System and Information Integrity,Policy and Procedures,0,1,1,1,1
+SI-2,SI,System and Information Integrity,Flaw Remediation,0,1,1,1,0
+SI-2(2),SI,System and Information Integrity,Automated Flaw Remediation Status,1,0,1,1,0
+SI-2(3),SI,System and Information Integrity,Time to Remediate Flaws and Benchmarks for Corrective Actions,1,0,0,0,0
+SI-2(4),SI,System and Information Integrity,Automated Patch Management Tools,1,0,0,0,0
+SI-2(5),SI,System and Information Integrity,Automatic Software and Firmware Updates,1,0,0,0,0
+SI-2(6),SI,System and Information Integrity,Removal of Previous Versions of Software and Firmware,1,0,0,0,0
+SI-2(7),SI,System and Information Integrity,Root Cause Analysis,1,0,0,0,0
+SI-3,SI,System and Information Integrity,Malicious Code Protection,0,1,1,1,0
+SI-3(4),SI,System and Information Integrity,Updates Only by Privileged Users,1,0,0,0,0
+SI-3(6),SI,System and Information Integrity,Testing and Verification,1,0,0,0,0
+SI-3(8),SI,System and Information Integrity,Detect Unauthorized Commands,1,0,0,0,0
+SI-3(10),SI,System and Information Integrity,Malicious Code Analysis,1,0,0,0,0
+SI-4,SI,System and Information Integrity,System Monitoring,0,1,1,1,0
+SI-4(1),SI,System and Information Integrity,System-wide Intrusion Detection System,1,0,0,0,0
+SI-4(2),SI,System and Information Integrity,Automated Tools and Mechanisms for Real-time Analysis,1,0,1,1,0
+SI-4(3),SI,System and Information Integrity,Automated Tool and Mechanism Integration,1,0,0,0,0
+SI-4(4),SI,System and Information Integrity,Inbound and Outbound Communications Traffic,1,0,1,1,0
+SI-4(5),SI,System and Information Integrity,System-generated Alerts,1,0,1,1,0
+SI-4(7),SI,System and Information Integrity,Automated Response to Suspicious Events,1,0,0,0,0
+SI-4(9),SI,System and Information Integrity,Testing of Monitoring Tools and Mechanisms,1,0,0,0,0
+SI-4(10),SI,System and Information Integrity,Visibility of Encrypted Communications,1,0,0,1,0
+SI-4(11),SI,System and Information Integrity,Analyze Communications Traffic Anomalies,1,0,0,0,0
+SI-4(12),SI,System and Information Integrity,Automated Organization-generated Alerts,1,0,0,1,0
+SI-4(13),SI,System and Information Integrity,Analyze Traffic and Event Patterns,1,0,0,0,0
+SI-4(14),SI,System and Information Integrity,Wireless Intrusion Detection,1,0,0,1,0
+SI-4(15),SI,System and Information Integrity,Wireless to Wireline Communications,1,0,0,0,0
+SI-4(16),SI,System and Information Integrity,Correlate Monitoring Information,1,0,0,0,0
+SI-4(17),SI,System and Information Integrity,Integrated Situational Awareness,1,0,0,0,0
+SI-4(18),SI,System and Information Integrity,Analyze Traffic and Covert Exfiltration,1,0,0,0,0
+SI-4(19),SI,System and Information Integrity,Risk for Individuals,1,0,0,0,0
+SI-4(20),SI,System and Information Integrity,Privileged Users,1,0,0,1,0
+SI-4(21),SI,System and Information Integrity,Probationary Periods,1,0,0,0,0
+SI-4(22),SI,System and Information Integrity,Unauthorized Network Services,1,0,0,1,0
+SI-4(23),SI,System and Information Integrity,Host-based Devices,1,0,0,0,0
+SI-4(24),SI,System and Information Integrity,Indicators of Compromise,1,0,0,0,0
+SI-4(25),SI,System and Information Integrity,Optimize Network Traffic Analysis,1,0,0,0,0
+SI-5,SI,System and Information Integrity,"Security Alerts, Advisories, and Directives",0,1,1,1,0
+SI-5(1),SI,System and Information Integrity,Automated Alerts and Advisories,1,0,0,1,0
+SI-6,SI,System and Information Integrity,Security and Privacy Function Verification,0,0,0,1,0
+SI-6(2),SI,System and Information Integrity,Automation Support for Distributed Testing,1,0,0,0,0
+SI-6(3),SI,System and Information Integrity,Report Verification Results,1,0,0,0,0
+SI-7,SI,System and Information Integrity,"Software, Firmware, and Information Integrity",0,0,1,1,0
+SI-7(1),SI,System and Information Integrity,Integrity Checks,1,0,1,1,0
+SI-7(2),SI,System and Information Integrity,Automated Notifications of Integrity Violations,1,0,0,1,0
+SI-7(3),SI,System and Information Integrity,Centrally Managed Integrity Tools,1,0,0,0,0
+SI-7(5),SI,System and Information Integrity,Automated Response to Integrity Violations,1,0,0,1,0
+SI-7(6),SI,System and Information Integrity,Cryptographic Protection,1,0,0,0,0
+SI-7(7),SI,System and Information Integrity,Integration of Detection and Response,1,0,1,1,0
+SI-7(8),SI,System and Information Integrity,Auditing Capability for Significant Events,1,0,0,0,0
+SI-7(9),SI,System and Information Integrity,Verify Boot Process,1,0,0,0,0
+SI-7(10),SI,System and Information Integrity,Protection of Boot Firmware,1,0,0,0,0
+SI-7(12),SI,System and Information Integrity,Integrity Verification,1,0,0,0,0
+SI-7(15),SI,System and Information Integrity,Code Authentication,1,0,0,1,0
+SI-7(16),SI,System and Information Integrity,Time Limit on Process Execution Without Supervision,1,0,0,0,0
+SI-7(17),SI,System and Information Integrity,Runtime Application Self-protection,1,0,0,0,0
+SI-8,SI,System and Information Integrity,Spam Protection,0,0,1,1,0
+SI-8(2),SI,System and Information Integrity,Automatic Updates,1,0,1,1,0
+SI-8(3),SI,System and Information Integrity,Continuous Learning Capability,1,0,0,0,0
+SI-10,SI,System and Information Integrity,Information Input Validation,0,0,1,1,0
+SI-10(1),SI,System and Information Integrity,Manual Override Capability,1,0,0,0,0
+SI-10(2),SI,System and Information Integrity,Review and Resolve Errors,1,0,0,0,0
+SI-10(3),SI,System and Information Integrity,Predictable Behavior,1,0,0,0,0
+SI-10(4),SI,System and Information Integrity,Timing Interactions,1,0,0,0,0
+SI-10(5),SI,System and Information Integrity,Restrict Inputs to Trusted Sources and Approved Formats,1,0,0,0,0
+SI-10(6),SI,System and Information Integrity,Injection Prevention,1,0,0,0,0
+SI-11,SI,System and Information Integrity,Error Handling,0,0,1,1,0
+SI-12,SI,System and Information Integrity,Information Management and Retention,0,1,1,1,1
+SI-12(1),SI,System and Information Integrity,Limit Personally Identifiable Information Elements,1,0,0,0,1
+SI-12(2),SI,System and Information Integrity,"Minimize Personally Identifiable Information in Testing, Training, and Research",1,0,0,0,1
+SI-12(3),SI,System and Information Integrity,Information Disposal,1,0,0,0,1
+SI-13,SI,System and Information Integrity,Predictable Failure Prevention,0,0,0,0,0
+SI-13(1),SI,System and Information Integrity,Transferring Component Responsibilities,1,0,0,0,0
+SI-13(3),SI,System and Information Integrity,Manual Transfer Between Components,1,0,0,0,0
+SI-13(4),SI,System and Information Integrity,Standby Component Installation and Notification,1,0,0,0,0
+SI-13(5),SI,System and Information Integrity,Failover Capability,1,0,0,0,0
+SI-14,SI,System and Information Integrity,Non-persistence,0,0,0,0,0
+SI-14(1),SI,System and Information Integrity,Refresh from Trusted Sources,1,0,0,0,0
+SI-14(2),SI,System and Information Integrity,Non-persistent Information,1,0,0,0,0
+SI-14(3),SI,System and Information Integrity,Non-persistent Connectivity,1,0,0,0,0
+SI-15,SI,System and Information Integrity,Information Output Filtering,0,0,0,0,0
+SI-16,SI,System and Information Integrity,Memory Protection,0,0,1,1,0
+SI-17,SI,System and Information Integrity,Fail-safe Procedures,0,0,0,0,0
+SI-18,SI,System and Information Integrity,Personally Identifiable Information Quality Operations,0,0,0,0,1
+SI-18(1),SI,System and Information Integrity,Automation Support,1,0,0,0,0
+SI-18(2),SI,System and Information Integrity,Data Tags,1,0,0,0,0
+SI-18(3),SI,System and Information Integrity,Collection,1,0,0,0,0
+SI-18(4),SI,System and Information Integrity,Individual Requests,1,0,0,0,1
+SI-18(5),SI,System and Information Integrity,Notice of Correction or Deletion,1,0,0,0,0
+SI-19,SI,System and Information Integrity,De-identification,0,0,0,0,1
+SI-19(1),SI,System and Information Integrity,Collection,1,0,0,0,0
+SI-19(2),SI,System and Information Integrity,Archiving,1,0,0,0,0
+SI-19(3),SI,System and Information Integrity,Release,1,0,0,0,0
+SI-19(4),SI,System and Information Integrity,"Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers",1,0,0,0,0
+SI-19(5),SI,System and Information Integrity,Statistical Disclosure Control,1,0,0,0,0
+SI-19(6),SI,System and Information Integrity,Differential Privacy,1,0,0,0,0
+SI-19(7),SI,System and Information Integrity,Validated Algorithms and Software,1,0,0,0,0
+SI-19(8),SI,System and Information Integrity,Motivated Intruder,1,0,0,0,0
+SI-20,SI,System and Information Integrity,Tainting,0,0,0,0,0
+SI-21,SI,System and Information Integrity,Information Refresh,0,0,0,0,0
+SI-22,SI,System and Information Integrity,Information Diversity,0,0,0,0,0
+SI-23,SI,System and Information Integrity,Information Fragmentation,0,0,0,0,0
+SR-1,SR,Supply Chain Risk Management,Policy and Procedures,0,1,1,1,0
+SR-2,SR,Supply Chain Risk Management,Supply Chain Risk Management Plan,0,1,1,1,0
+SR-2(1),SR,Supply Chain Risk Management,Establish SCRM Team,1,1,1,1,0
+SR-3,SR,Supply Chain Risk Management,Supply Chain Controls and Processes,0,1,1,1,0
+SR-3(1),SR,Supply Chain Risk Management,Diverse Supply Base,1,0,0,0,0
+SR-3(2),SR,Supply Chain Risk Management,Limitation of Harm,1,0,0,0,0
+SR-3(3),SR,Supply Chain Risk Management,Sub-tier Flow Down,1,0,0,0,0
+SR-4,SR,Supply Chain Risk Management,Provenance,0,0,0,0,0
+SR-4(1),SR,Supply Chain Risk Management,Identity,1,0,0,0,0
+SR-4(2),SR,Supply Chain Risk Management,Track and Trace,1,0,0,0,0
+SR-4(3),SR,Supply Chain Risk Management,Validate as Genuine and Not Altered,1,0,0,0,0
+SR-4(4),SR,Supply Chain Risk Management,Supply Chain Integrity — Pedigree,1,0,0,0,0
+SR-5,SR,Supply Chain Risk Management,"Acquisition Strategies, Tools, and Methods",0,1,1,1,0
+SR-5(1),SR,Supply Chain Risk Management,Adequate Supply,1,0,0,0,0
+SR-5(2),SR,Supply Chain Risk Management,"Assessments Prior to Selection, Acceptance, Modification, or Update",1,0,0,0,0
+SR-6,SR,Supply Chain Risk Management,Supplier Assessments and Reviews,0,0,1,1,0
+SR-6(1),SR,Supply Chain Risk Management,Testing and Analysis,1,0,0,0,0
+SR-7,SR,Supply Chain Risk Management,Supply Chain Operations Security,0,0,0,0,0
+SR-8,SR,Supply Chain Risk Management,Notification Agreements,0,1,1,1,0
+SR-9,SR,Supply Chain Risk Management,Tamper Resistance and Detection,0,0,0,1,0
+SR-9(1),SR,Supply Chain Risk Management,Multiple Stages of System Development Life Cycle,1,0,0,1,0
+SR-10,SR,Supply Chain Risk Management,Inspection of Systems or Components,0,1,1,1,0
+SR-11,SR,Supply Chain Risk Management,Component Authenticity,0,1,1,1,0
+SR-11(1),SR,Supply Chain Risk Management,Anti-counterfeit Training,1,1,1,1,0
+SR-11(2),SR,Supply Chain Risk Management,Configuration Control for Component Service and Repair,1,1,1,1,0
+SR-11(3),SR,Supply Chain Risk Management,Anti-counterfeit Scanning,1,0,0,0,0
+SR-12,SR,Supply Chain Risk Management,Component Disposal,0,1,1,1,0
