@@ -1,0 +1,13 @@
+``` Failed Login Brute Force
+    Purpose : Flag a source that fails to log on many times in a short window.
+    Data    : Windows Security log, EventCode 4625 (failed logon).
+    Controls: AC-7, AU-6, SI-4  (see data/detections_to_controls.csv)
+    Tuning  : Raise the threshold for shared jump hosts or VPN concentrators.
+              Exclude known vulnerability scanners by source address.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=4625
+| bin _time span=10m
+| stats count AS failures dc(TargetUserName) AS distinct_users values(TargetUserName) AS users BY _time, IpAddress, ComputerName
+| where failures >= 10
+| eval pattern=if(distinct_users >= 5, "possible password spray", "possible brute force")
+| sort - failures

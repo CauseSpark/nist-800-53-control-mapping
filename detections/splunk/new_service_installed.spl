@@ -1,0 +1,15 @@
+``` New Service Installed
+    Purpose : List newly installed Windows services so they can be checked
+              against approved change records.
+    Data    : System log EventCode 7045 and Security log EventCode 4697
+              (a service was installed).
+    Controls: CM-3, CM-11, SI-4
+    Tuning  : Allowlist services from your software deployment tool. Prioritize
+              services whose path is in a user-writable folder.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog ((sourcetype="WinEventLog:System" EventCode=7045) OR (sourcetype="WinEventLog:Security" EventCode=4697))
+| eval service=coalesce(ServiceName, Service_Name), path=coalesce(ImagePath, ServiceFileName, Service_File_Name)
+| eval suspicious_path=if(match(path, "(?i)\\\\(users|temp|appdata|programdata)\\\\"), "yes", "no")
+| stats min(_time) AS first_seen values(path) AS paths values(suspicious_path) AS suspicious_path BY ComputerName, service
+| convert ctime(first_seen)
+| sort - suspicious_path, - first_seen

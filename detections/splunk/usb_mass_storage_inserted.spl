@@ -1,0 +1,13 @@
+``` USB Mass Storage Inserted
+    Purpose : Report removable storage devices connected to endpoints so they
+              can be checked against the removable media policy.
+    Data    : Windows Security log, EventCode 6416 (new external device
+              recognized). Requires the "Audit PNP Activity" policy.
+    Controls: MP-7, SC-41, SI-4
+    Tuning  : Allowlist approved, encrypted device IDs with a lookup.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=6416
+| where match(ClassName, "(?i)(DiskDrive|USB|WPD)")
+| stats count AS insertions min(_time) AS first_seen values(DeviceDescription) AS devices values(DeviceId) AS device_ids BY ComputerName, SubjectUserName
+| convert ctime(first_seen)
+| sort - insertions

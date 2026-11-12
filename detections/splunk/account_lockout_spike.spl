@@ -1,0 +1,13 @@
+``` Account Lockout Spike
+    Purpose : Detect an unusual number of account lockouts in one hour, which can
+              indicate password spraying or a misconfigured service.
+    Data    : Windows Security log, EventCode 4740 (account locked out).
+    Controls: AC-7, SI-4
+    Tuning  : Compare against a rolling baseline instead of a fixed number once
+              you have a few weeks of data.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=4740
+| bin _time span=1h
+| stats dc(TargetUserName) AS locked_accounts values(TargetUserName) AS accounts values(CallerComputerName) AS caller_hosts BY _time
+| where locked_accounts >= 5
+| sort - locked_accounts

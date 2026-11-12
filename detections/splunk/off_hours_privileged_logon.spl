@@ -1,0 +1,16 @@
+``` Off-Hours Privileged Logon
+    Purpose : Find privileged logons outside business hours (default 07:00-19:00,
+              Monday to Friday, in the indexer's time zone).
+    Data    : Windows Security log, EventCode 4672 (special privileges assigned
+              to new logon).
+    Controls: AC-2(12), AC-6(9), AU-6
+    Tuning  : Exclude SYSTEM and machine accounts (ending in $). Maintain an
+              on-call lookup so scheduled after-hours work is not flagged.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=4672
+| where NOT match(SubjectUserName, "[$]$") AND SubjectUserName!="SYSTEM"
+| eval hour=tonumber(strftime(_time, "%H")), wday=strftime(_time, "%a")
+| where hour < 7 OR hour >= 19 OR in(wday, "Sat", "Sun")
+| stats count AS logons min(_time) AS first max(_time) AS last values(ComputerName) AS hosts BY SubjectUserName
+| convert ctime(first) ctime(last)
+| sort - logons

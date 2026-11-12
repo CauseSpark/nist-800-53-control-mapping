@@ -1,0 +1,17 @@
+``` New Admin Account
+    Purpose : Alert when a new account is created or an account is added to a
+              privileged group. Rows with both actions deserve the fastest look.
+    Data    : Windows Security log. 4720 (account created), 4728 / 4732 / 4756
+              (member added to a global / local / universal security group).
+    Controls: AC-2, AC-2(4), AC-6(9), SI-4
+    Tuning  : Keep the privileged group list in a lookup instead of inline.
+              Suppress known provisioning service accounts after review.
+    Example environment: Harborlight Logistics (fictional). ```
+index=wineventlog sourcetype="WinEventLog:Security" EventCode IN (4720, 4728, 4732, 4756)
+| eval action=case(EventCode=4720, "account_created", true(), "added_to_group")
+| eval target=coalesce(MemberName, TargetUserName)
+| eval group=if(action="added_to_group", TargetUserName, null())
+| eval privileged=if(match(TargetUserName, "(?i)^(domain admins|enterprise admins|administrators|schema admins)$"), 1, 0)
+| where action="account_created" OR privileged=1
+| stats min(_time) AS first_seen values(action) AS actions values(group) AS groups values(SubjectUserName) AS changed_by BY target, ComputerName
+| convert ctime(first_seen)

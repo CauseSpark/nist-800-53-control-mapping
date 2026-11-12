@@ -1,0 +1,13 @@
+``` Audit Log Cleared
+    Purpose : Alert whenever a Windows event log is cleared. Legitimate clears
+              are rare and should match a change ticket.
+    Data    : Security log EventCode 1102 and System log EventCode 104.
+    Controls: AU-9, AU-6, SI-4
+    Tuning  : No threshold. Every event is worth a look.
+    Example environment: Harborlight Logistics (fictional). ```
+(index=wineventlog sourcetype="WinEventLog:Security" EventCode=1102)
+OR (index=wineventlog sourcetype="WinEventLog:System" EventCode=104)
+| eval log_cleared=if(EventCode=1102, "Security", coalesce(Channel, "System"))
+| eval actor=coalesce(SubjectUserName, user, "unknown")
+| table _time, ComputerName, log_cleared, actor, EventCode
+| sort - _time
