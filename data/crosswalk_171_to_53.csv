@@ -1,0 +1,158 @@
+req_171,req_title,req_family,control_53
+03.01.01,Account Management,Access Control,AC-2
+03.01.01,Account Management,Access Control,AC-2(3)
+03.01.01,Account Management,Access Control,AC-2(5)
+03.01.01,Account Management,Access Control,AC-2(13)
+03.01.02,Access Enforcement,Access Control,AC-3
+03.01.03,Information Flow Enforcement,Access Control,AC-4
+03.01.04,Separation of Duties,Access Control,AC-5
+03.01.05,Least Privilege,Access Control,AC-6
+03.01.05,Least Privilege,Access Control,AC-6(1)
+03.01.05,Least Privilege,Access Control,AC-6(7)
+03.01.05,Least Privilege,Access Control,AU-9(4)
+03.01.06,Least Privilege – Privileged Accounts,Access Control,AC-6(2)
+03.01.06,Least Privilege – Privileged Accounts,Access Control,AC-6(5)
+03.01.07,Least Privilege – Privileged Functions,Access Control,AC-6(9)
+03.01.07,Least Privilege – Privileged Functions,Access Control,AC-6(10)
+03.01.08,Unsuccessful Logon Attempts,Access Control,AC-7
+03.01.09,System Use Notification,Access Control,AC-8
+03.01.10,Device Lock,Access Control,AC-11
+03.01.10,Device Lock,Access Control,AC-11(1)
+03.01.11,Session Termination,Access Control,AC-12
+03.01.12,Remote Access,Access Control,AC-17
+03.01.12,Remote Access,Access Control,AC-17(3)
+03.01.12,Remote Access,Access Control,AC-17(4)
+03.01.16,Wireless Access,Access Control,AC-18
+03.01.16,Wireless Access,Access Control,AC-18(1)
+03.01.16,Wireless Access,Access Control,AC-18(3)
+03.01.18,Access Control for Mobile Devices,Access Control,AC-19
+03.01.18,Access Control for Mobile Devices,Access Control,AC-19(5)
+03.01.20,Use of External Systems,Access Control,AC-20
+03.01.20,Use of External Systems,Access Control,AC-20(1)
+03.01.20,Use of External Systems,Access Control,AC-20(2)
+03.01.22,Publicly Accessible Content,Access Control,AC-22
+03.02.01,Literacy Training and Awareness,Awareness and Training,AT-2
+03.02.01,Literacy Training and Awareness,Awareness and Training,AT-2(2)
+03.02.01,Literacy Training and Awareness,Awareness and Training,AT-2(3)
+03.02.02,Role-Based Training,Awareness and Training,AT-3
+03.03.01,Event Logging,Audit and Accountability,AU-2
+03.03.02,Audit Record Content,Audit and Accountability,AU-3
+03.03.02,Audit Record Content,Audit and Accountability,AU-3(1)
+03.03.03,Audit Record Generation,Audit and Accountability,AU-11
+03.03.03,Audit Record Generation,Audit and Accountability,AU-12
+03.03.04,Response to Audit Logging Process Failures,Audit and Accountability,AU-5
+03.03.05,"Audit Record Review, Analysis, and Reporting",Audit and Accountability,AU-6
+03.03.05,"Audit Record Review, Analysis, and Reporting",Audit and Accountability,AU-6(3)
+03.03.06,Audit Record Reduction and Report Generation,Audit and Accountability,AU-7
+03.03.07,Time Stamps,Audit and Accountability,AU-8
+03.03.08,Protection of Audit Information,Audit and Accountability,AU-9
+03.03.08,Protection of Audit Information,Audit and Accountability,AU-9(4)
+03.04.01,Baseline Configuration,Configuration Management,CM-2
+03.04.02,Configuration Settings,Configuration Management,CM-6
+03.04.03,Configuration Change Control,Configuration Management,CM-3
+03.04.04,Impact Analyses,Configuration Management,CM-4
+03.04.04,Impact Analyses,Configuration Management,CM-4(2)
+03.04.05,Access Restrictions for Change,Configuration Management,CM-5
+03.04.06,Least Functionality,Configuration Management,CM-7
+03.04.06,Least Functionality,Configuration Management,CM-7(1)
+03.04.08,Authorized Software – Allow by Exception,Configuration Management,CM-7(5)
+03.04.10,System Component Inventory,Configuration Management,CM-8
+03.04.10,System Component Inventory,Configuration Management,CM-8(1)
+03.04.11,Information Location,Configuration Management,CM-12
+03.04.12,System and Component Configuration for High-Risk Areas,Configuration Management,CM-2(7)
+03.05.01,User Identification and Authentication,Identification and Authentication,IA-2
+03.05.01,User Identification and Authentication,Identification and Authentication,IA-11
+03.05.02,Device Identification and Authentication,Identification and Authentication,IA-3
+03.05.03,Multi-Factor Authentication,Identification and Authentication,IA-2(1)
+03.05.03,Multi-Factor Authentication,Identification and Authentication,IA-2(2)
+03.05.04,Replay-Resistant Authentication,Identification and Authentication,IA-2(8)
+03.05.05,Identifier Management,Identification and Authentication,IA-4
+03.05.05,Identifier Management,Identification and Authentication,IA-4(4)
+03.05.07,Password Management,Identification and Authentication,IA-5(1)
+03.05.11,Authentication Feedback,Identification and Authentication,IA-6
+03.05.12,Authenticator Management,Identification and Authentication,IA-5
+03.06.01,Incident Handling,Incident Response,IR-4
+03.06.02,"Incident Monitoring, Reporting, and Response Assistance",Incident Response,IR-5
+03.06.02,"Incident Monitoring, Reporting, and Response Assistance",Incident Response,IR-6
+03.06.02,"Incident Monitoring, Reporting, and Response Assistance",Incident Response,IR-7
+03.06.03,Incident Response Testing,Incident Response,IR-3
+03.06.04,Incident Response Training,Incident Response,IR-2
+03.06.05,Incident Response Plan,Incident Response,IR-8
+03.07.04,Maintenance Tools,Maintenance,MA-3
+03.07.04,Maintenance Tools,Maintenance,MA-3(1)
+03.07.04,Maintenance Tools,Maintenance,MA-3(2)
+03.07.04,Maintenance Tools,Maintenance,MA-3(3)
+03.07.05,Nonlocal Maintenance,Maintenance,MA-4
+03.07.06,Maintenance Personnel,Maintenance,MA-5
+03.08.01,Media Storage,Media Protection,MP-4
+03.08.02,Media Access,Media Protection,MP-2
+03.08.03,Media Sanitization,Media Protection,MP-6
+03.08.04,Media Marking,Media Protection,MP-3
+03.08.05,Media Transport,Media Protection,MP-5
+03.08.05,Media Transport,Media Protection,SC-28
+03.08.07,Media Use,Media Protection,MP-7
+03.08.09,System Backup – Cryptographic Protection,Media Protection,CP-9
+03.08.09,System Backup – Cryptographic Protection,Media Protection,CP-9(8)
+03.09.01,Personnel Screening,Personnel Security,PS-3
+03.09.02,Personnel Termination and Transfer,Personnel Security,PS-4
+03.09.02,Personnel Termination and Transfer,Personnel Security,PS-5
+03.10.01,Physical Access Authorizations,Physical Protection,PE-2
+03.10.02,Monitoring Physical Access,Physical Protection,PE-6
+03.10.06,Alternate Work Site,Physical Protection,PE-17
+03.10.07,Physical Access Control,Physical Protection,PE-3
+03.10.07,Physical Access Control,Physical Protection,PE-5
+03.10.08,Access Control for Transmission,Physical Protection,PE-4
+03.11.01,Risk Assessment,Risk Assessment,RA-3
+03.11.01,Risk Assessment,Risk Assessment,RA-3(1)
+03.11.01,Risk Assessment,Risk Assessment,SR-6
+03.11.02,Vulnerability Monitoring and Scanning,Risk Assessment,RA-5
+03.11.02,Vulnerability Monitoring and Scanning,Risk Assessment,RA-5(2)
+03.11.04,Risk Response,Risk Assessment,RA-7
+03.12.01,Security Assessment,Security Assessment and Monitoring,CA-2
+03.12.02,Plan of Action and Milestones,Security Assessment and Monitoring,CA-5
+03.12.03,Continuous Monitoring,Security Assessment and Monitoring,CA-7
+03.12.05,Information Exchange,Security Assessment and Monitoring,CA-3
+03.13.01,Boundary Protection,System and Communications Protection,SC-7
+03.13.04,Information in Shared System Resources,System and Communications Protection,SC-4
+03.13.06,Network Communications – Deny by Default – Allow by Exception,System and Communications Protection,SC-7(5)
+03.13.08,Transmission and Storage Confidentiality,System and Communications Protection,SC-8
+03.13.08,Transmission and Storage Confidentiality,System and Communications Protection,SC-8(1)
+03.13.08,Transmission and Storage Confidentiality,System and Communications Protection,SC-28
+03.13.08,Transmission and Storage Confidentiality,System and Communications Protection,SC-28(1)
+03.13.09,Network Disconnect,System and Communications Protection,SC-10
+03.13.10,Cryptographic Key Establishment and Management,System and Communications Protection,SC-12
+03.13.11,Cryptographic Protection,System and Communications Protection,SC-13
+03.13.12,Collaborative Computing Devices and Applications,System and Communications Protection,SC-15
+03.13.13,Mobile Code,System and Communications Protection,SC-18
+03.13.15,Session Authenticity,System and Communications Protection,SC-23
+03.14.01,Flaw Remediation,System and Information Integrity,SI-2
+03.14.02,Malicious Code Protection,System and Information Integrity,SI-3
+03.14.03,"Security Alerts, Advisories, and Directives",System and Information Integrity,SI-5
+03.14.06,System Monitoring,System and Information Integrity,SI-4
+03.14.06,System Monitoring,System and Information Integrity,SI-4(4)
+03.14.08,Information Management and Retention,System and Information Integrity,SI-12
+03.15.01,Policy and Procedures,Planning,AC-1
+03.15.01,Policy and Procedures,Planning,AT-1
+03.15.01,Policy and Procedures,Planning,AU-1
+03.15.01,Policy and Procedures,Planning,CA-1
+03.15.01,Policy and Procedures,Planning,CM-1
+03.15.01,Policy and Procedures,Planning,IA-1
+03.15.01,Policy and Procedures,Planning,IR-1
+03.15.01,Policy and Procedures,Planning,MA-1
+03.15.01,Policy and Procedures,Planning,MP-1
+03.15.01,Policy and Procedures,Planning,PE-1
+03.15.01,Policy and Procedures,Planning,PL-1
+03.15.01,Policy and Procedures,Planning,PS-1
+03.15.01,Policy and Procedures,Planning,RA-1
+03.15.01,Policy and Procedures,Planning,SA-1
+03.15.01,Policy and Procedures,Planning,SC-1
+03.15.01,Policy and Procedures,Planning,SI-1
+03.15.01,Policy and Procedures,Planning,SR-1
+03.15.02,System Security Plan,Planning,PL-2
+03.15.03,Rules of Behavior,Planning,PL-4
+03.16.01,Security Engineering Principles,System and Services Acquisition,SA-8
+03.16.02,Unsupported System Components,System and Services Acquisition,SA-22
+03.16.03,External System Services,System and Services Acquisition,SA-9
+03.17.01,Supply Chain Risk Management Plan,Supply Chain Risk Management,SR-2
+03.17.02,"Acquisition Strategies, Tools, and Methods",Supply Chain Risk Management,SR-5
+03.17.03,Supply Chain Requirements and Processes,Supply Chain Risk Management,SR-3
