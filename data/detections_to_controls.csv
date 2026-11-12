@@ -1,0 +1,22 @@
+detection,spl_file,control_53,rationale
+Failed Login Brute Force,failed_login_bruteforce.spl,AC-7,Flags repeated failed logons that unsuccessful-logon limits are meant to stop
+Failed Login Brute Force,failed_login_bruteforce.spl,AU-6,Turns raw authentication logs into a reviewed finding
+Failed Login Brute Force,failed_login_bruteforce.spl,SI-4,Monitors the system for indicators of attack
+New Admin Account,new_admin_account.spl,AC-2,Surfaces account creation and privileged group changes for account management review
+New Admin Account,new_admin_account.spl,AC-2(4),Automated alerting on account creation and modification
+New Admin Account,new_admin_account.spl,AC-6(9),Logs use of privileged functions (granting admin rights)
+New Admin Account,new_admin_account.spl,SI-4,Monitors for unauthorized privilege escalation
+Account Lockout Spike,account_lockout_spike.spl,AC-7,Tracks lockouts triggered by the unsuccessful-logon policy
+Account Lockout Spike,account_lockout_spike.spl,SI-4,Detects password-spraying patterns across many accounts
+Audit Log Cleared,audit_log_cleared.spl,AU-9,Detects tampering with audit information
+Audit Log Cleared,audit_log_cleared.spl,AU-6,Escalates log clearing for analyst review
+Audit Log Cleared,audit_log_cleared.spl,SI-4,Monitors for defense-evasion activity
+Off-Hours Privileged Logon,off_hours_privileged_logon.spl,AC-2(12),Monitors accounts for atypical usage (time of day)
+Off-Hours Privileged Logon,off_hours_privileged_logon.spl,AC-6(9),Logs privileged sessions
+Off-Hours Privileged Logon,off_hours_privileged_logon.spl,AU-6,Reviews privileged activity against expected patterns
+New Service Installed,new_service_installed.spl,CM-3,Surfaces system changes to compare against approved change records
+New Service Installed,new_service_installed.spl,CM-11,Detects software installed outside approved channels
+New Service Installed,new_service_installed.spl,SI-4,Monitors for persistence via new services
+USB Mass Storage Inserted,usb_mass_storage_inserted.spl,MP-7,Supports enforcement of removable media use restrictions
+USB Mass Storage Inserted,usb_mass_storage_inserted.spl,SC-41,Supports port and I/O device access restrictions
+USB Mass Storage Inserted,usb_mass_storage_inserted.spl,SI-4,Monitors for possible data exfiltration paths
