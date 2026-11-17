@@ -76,17 +76,19 @@ def load_controls(path: Path | None = None) -> dict[str, Control]:
     return controls
 
 
-def load_crosswalk(path: Path | None = None) -> list[dict]:
-    """Rows of 800-171r3 requirement -> 800-53r5 source control."""
-    rows = _read(path or DATA_DIR / "crosswalk_171_to_53.csv")
+def _read_mapping(path: Path) -> list[dict]:
+    """Read a CSV whose control_53 column holds 800-53 control ids, and normalize them."""
+    rows = _read(path)
     for r in rows:
         r["control_53"] = normalize_control_id(r["control_53"])
     return rows
+
+
+def load_crosswalk(path: Path | None = None) -> list[dict]:
+    """Rows of 800-171r3 requirement -> 800-53r5 source control."""
+    return _read_mapping(path or DATA_DIR / "crosswalk_171_to_53.csv")
 
 
 def load_detections(path: Path | None = None) -> list[dict]:
     """Rows of detection -> 800-53r5 control it supports."""
-    rows = _read(path or DATA_DIR / "detections_to_controls.csv")
-    for r in rows:
-        r["control_53"] = normalize_control_id(r["control_53"])
-    return rows
+    return _read_mapping(path or DATA_DIR / "detections_to_controls.csv")
