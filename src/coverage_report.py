@@ -13,7 +13,7 @@ Examples:
 from __future__ import annotations
 
 import argparse
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -54,12 +54,8 @@ def build_coverage(
     covered = {cid: sorted(d) for cid, d in mapped.items() if cid in baseline_ids}
     outside = {cid: sorted(d) for cid, d in mapped.items() if cid not in baseline_ids}
 
-    totals = defaultdict(int)
-    for c in in_baseline:
-        totals[c.family] += 1
-    hits = defaultdict(int)
-    for cid in covered:
-        hits[controls[cid].family] += 1
+    totals = Counter(c.family for c in in_baseline)
+    hits = Counter(controls[cid].family for cid in covered)
     by_family = {fam: (hits[fam], totals[fam]) for fam in sorted(hits)}
 
     req_171: dict[str, list[str]] = defaultdict(list)

@@ -7,7 +7,7 @@ or guidance text.
 
 Usage:
     git clone --depth 1 https://github.com/usnistgov/oscal-content.git /tmp/oscal-content
-    python scripts/build_data.py /tmp/oscal-content
+    python -m scripts.build_data /tmp/oscal-content      # run from the repo root
 
 Outputs:
     data/baselines_rev5.csv
@@ -18,9 +18,10 @@ from __future__ import annotations
 
 import csv
 import json
-import re
 import sys
 from pathlib import Path
+
+from src.loaders import normalize_control_id
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
@@ -35,27 +36,13 @@ PROFILES = {
 }
 CATALOG_171 = Path("nist.gov/SP800-171/rev3/json/NIST_SP800-171_rev3_catalog.json")
 
-# Matches 800-53 identifiers as written in the 800-171r3 OSCAL references,
-# e.g. "AC-02" or "AC-02(03)".
-REF_ID = re.compile(r"^([A-Z]{2})-(\d{1,2})(?:\((\d{1,2})\))?$")
-
-
-def oscal_id_to_label(oscal_id: str) -> str:
-    """Convert an OSCAL id like 'ac-2.3' to the familiar label 'AC-2(3)'."""
-    base, _, enh = oscal_id.partition(".")
-    family, _, number = base.partition("-")
-    label = f"{family.upper()}-{int(number)}"
-    return f"{label}({int(enh)})" if enh else label
-
 
 def ref_title_to_label(title: str) -> str | None:
     """Convert a reference title like 'AC-02(03)' to 'AC-2(3)'. None if not a control."""
-    m = REF_ID.match(title.strip())
-    if not m:
+    try:
+        return normalize_control_id(title)
+    except ValueError:
         return None
-    family, number, enh = m.groups()
-    label = f"{family}-{int(number)}"
-    return f"{label}({int(enh)})" if enh else label
 
 
 def is_withdrawn(control: dict) -> bool:
@@ -92,7 +79,7 @@ def build_baselines(src: Path) -> list[dict]:
             cid = control["id"]
             rows.append(
                 {
-                    "control_id": oscal_id_to_label(cid),
+                    "control_id": normalize_control_id(cid),  # 'ac-2.3' -> 'AC-2(3)'
                     "family": cid.split("-")[0].upper(),
                     "family_name": family,
                     "title": control["title"],

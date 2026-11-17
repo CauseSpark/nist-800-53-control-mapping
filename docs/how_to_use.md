@@ -83,7 +83,7 @@ When NIST issues a new release:
 
 ```bash
 git clone --depth 1 https://github.com/usnistgov/oscal-content.git /tmp/oscal-content
-python scripts/build_data.py /tmp/oscal-content
+python -m scripts.build_data /tmp/oscal-content
 python -m pytest
 ```
 
